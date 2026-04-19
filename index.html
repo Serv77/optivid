@@ -1,13 +1,94 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Optiline - Campaign Strategy Hub (OptiVid)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Space+Grotesk:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS via CDN for standalone GitHub deployment -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              optiline: {
+                gold: '#c5a059',
+                dark: '#0a0a0a',
+                gray: '#1a1a1a',
+                border: '#333333'
+              }
+            },
+            fontFamily: {
+              arabic: ['Cairo', 'sans-serif'],
+              english: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/style.css" />
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body class="bg-optiline-dark text-white font-arabic antialiased selection:bg-optiline-gold selection:text-black min-h-screen flex flex-col items-center">
+    
+    <!-- Top Bar -->
+    <div class="w-full bg-black border-b border-optiline-gold/20 py-2 px-8 flex justify-between items-center text-xs text-gray-500 font-english uppercase tracking-widest">
+        <span>Repository: github.com/Serv77/optivid</span>
+        <span>Optiline Proprietary System</span>
+    </div>
+
+    <!-- Header -->
+    <header class="w-full max-w-7xl py-12 px-6 flex flex-col md:flex-row justify-between items-start md:items-center">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-display font-bold tracking-tight text-white mb-3" dir="ltr">
+          OPTILINE <span class="text-optiline-gold">V.2</span>
+        </h1>
+        <p class="text-optiline-gold/90 font-arabic text-lg tracking-wide">
+          المركز الاستراتيجي لحملة الاختراق والمبيعات
+        </p>
+      </div>
+      <div class="mt-6 md:mt-0 text-right">
+        <p class="text-sm text-gray-400 font-arabic border border-optiline-border bg-optiline-gray px-4 py-2 rounded-lg">
+          <span class="text-optiline-gold font-bold">الهدف:</span> 6 شركات عالمية (High-Ticket)<br>
+          <span class="text-optiline-gold font-bold">الحالة:</span> جاهز للتنفيذ والإنتاج
+        </p>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="w-full max-w-7xl px-6 mb-8 border-b border-optiline-border flex flex-wrap gap-2 md:gap-8">
+      <button class="tab-btn active pb-4 px-2 text-optiline-gold font-bold text-lg relative" data-target="audit">
+        التقرير التنفيذي الشامل (Audit)
+        <div class="absolute bottom-0 left-0 w-full h-1 bg-optiline-gold indicator"></div>
+      </button>
+      <button class="tab-btn pb-4 px-2 text-gray-400 hover:text-gray-200 transition font-bold text-lg relative" data-target="scripts">
+        سكريبتات الفيديوهات (English)
+        <div class="absolute bottom-0 left-0 w-full h-1 bg-optiline-gold indicator hidden"></div>
+      </button>
+      <button class="tab-btn pb-4 px-2 text-gray-400 hover:text-gray-200 transition font-bold text-lg relative" data-target="visuals">
+        دليل الإخراج المرئي (Visuals)
+        <div class="absolute bottom-0 left-0 w-full h-1 bg-optiline-gold indicator hidden"></div>
+      </button>
+      <button class="tab-btn pb-4 px-2 text-gray-400 hover:text-gray-200 transition font-bold text-lg relative" data-target="sprint">
+        خطة الإنتاج الشاملة (3-Hour Sprint)
+        <div class="absolute bottom-0 left-0 w-full h-1 bg-optiline-gold indicator hidden"></div>
+      </button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="content-area" class="w-full max-w-7xl px-6 pb-20">
+      <!-- Content injected by script.js -->
+    </main>
+
+    <!-- Icons/Lucide via CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom App Script -->
+    <script type="module" src="/script.js"></script>
   </body>
 </html>
 
