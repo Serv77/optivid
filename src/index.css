@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --color-optiline-gold: #c5a059;
+  --color-optiline-dark: #0a0a0a;
+  --color-optiline-gray: #1a1a1a;
+}
+
+@layer base {
+  body {
+    @apply bg-optiline-dark text-white font-sans;
+  }
+}
