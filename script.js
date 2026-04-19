@@ -226,36 +226,68 @@ document.addEventListener('DOMContentLoaded', () => {
   
   const contentArea = document.getElementById('content-area');
   const tabs = document.querySelectorAll('.tab-btn');
+  
+  // State management for DONE tracking
+  let doneState = JSON.parse(localStorage.getItem('optiline_done_state')) || {};
 
-  // Delegated Copy Event Listener for Performance and Safety
+  // Delegated Event Listeners
   document.addEventListener('click', (e) => {
-    const btn = e.target.closest('.copy-btn');
-    if (!btn) return;
-    
-    // Find the closest text container to copy
-    const targetElement = btn.closest('.group')?.querySelector('.copy-target');
-    if (!targetElement) return;
+    // Done Toggle Handling
+    const doneBtn = e.target.closest('.done-toggle');
+    if (doneBtn) {
+      const company = doneBtn.getAttribute('data-company');
+      doneState[company] = !doneState[company];
+      localStorage.setItem('optiline_done_state', JSON.stringify(doneState));
+      
+      const activeTab = document.querySelector('.tab-btn.active').getAttribute('data-target');
+      if(activeTab === 'audit') renderAudit();
+      if(activeTab === 'scripts') renderScripts();
+      if(activeTab === 'visuals') renderVisuals();
+      if(activeTab === 'outreach') renderOutreach();
+      return;
+    }
 
-    navigator.clipboard.writeText(targetElement.innerText);
-    const originalHTML = btn.innerHTML;
-    btn.innerHTML = '<i data-lucide="check" class="w-3 h-3 text-green-500"></i> Copied';
-    lucide.createIcons();
-    
-    setTimeout(() => {
-      btn.innerHTML = originalHTML;
+    // Copy Event Listener
+    const copyBtn = e.target.closest('.copy-btn');
+    if (copyBtn) {
+      const targetElement = copyBtn.closest('.group')?.querySelector('.copy-target');
+      if (!targetElement) return;
+
+      navigator.clipboard.writeText(targetElement.innerText);
+      const originalHTML = copyBtn.innerHTML;
+      copyBtn.innerHTML = '<i data-lucide="check" class="w-3 h-3 text-green-500"></i> <span class="hidden sm:inline text-green-500">Copied</span>';
       lucide.createIcons();
-    }, 2000);
+      
+      setTimeout(() => {
+        copyBtn.innerHTML = originalHTML;
+        lucide.createIcons();
+      }, 2000);
+    }
   });
 
   // Render Functions
   function renderAudit() {
     let html = '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 fade-in">';
-    auditData.forEach(item => {
+    auditData.forEach((item, index) => {
+      const letter = String.fromCharCode(65 + index); // A, B, C...
+      const isDone = doneState[item.company];
+      const cardClass = isDone ? 'bg-[#050505] border-gray-800 opacity-60 grayscale' : 'bg-optiline-gray border-optiline-border hover:border-optiline-gold/50';
+      const letterClass = isDone ? 'bg-gray-900 text-gray-600 border-gray-800' : 'bg-optiline-gold/20 text-optiline-gold border-optiline-gold/30';
+      const btnClass = isDone 
+        ? 'bg-green-500/10 text-green-500 border-green-500/30' 
+        : 'bg-black text-gray-500 border-gray-700 hover:text-white hover:border-gray-500';
+
       html += `
-        <div class="bg-optiline-gray border border-optiline-border hover:border-optiline-gold/50 transition-colors p-6 rounded-lg flex flex-col group relative">
-          <div class="flex justify-between items-start mb-4">
-            <h3 class="text-xl font-english font-semibold text-white tracking-wide" dir="ltr">${item.company}</h3>
-            <span class="bg-optiline-gold/10 text-optiline-gold text-xs px-2 py-1 rounded-full font-english font-bold flex-shrink-0 mr-2 text-center h-fit">VIP</span>
+        <div class="${cardClass} transition-all duration-500 p-6 rounded-lg flex flex-col group relative">
+          <div class="flex justify-between items-start mb-5 gap-2">
+            <div class="flex items-center gap-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded ${letterClass} font-display font-bold text-lg border shrink-0">${letter}</span>
+              <h3 class="text-xl font-english font-semibold text-white tracking-wide" dir="ltr">${item.company}</h3>
+            </div>
+            <button class="done-toggle flex items-center gap-1.5 px-3 py-1.5 rounded text-[10px] font-bold border transition-colors shrink-0 ${btnClass}" data-company="${item.company}">
+              <i data-lucide="check-circle" class="w-4 h-4"></i>
+              <span class="hidden sm:inline">${isDone ? 'DONE' : 'MARK'}</span>
+            </button>
           </div>
           <div class="space-y-2 mb-6 text-sm text-gray-400 font-english" dir="ltr">
             <div class="flex items-center gap-2">
@@ -266,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="flex items-center gap-2">
               <i data-lucide="globe" class="w-4 h-4 text-optiline-gold"></i>
-              <a href="https://${item.url}" target="_blank" class="hover:text-optiline-gold underline decoration-gray-700 underline-offset-4 pointer-events-auto">${item.url}</a>
+              <a href="https://${item.url}" target="_blank" class="hover:text-optiline-gold underline decoration-gray-700 underline-offset-4 pointer-events-auto truncate block max-w-[180px]">${item.url}</a>
             </div>
           </div>
           <div class="space-y-4 text-right flex-1 copy-target">
@@ -283,8 +315,8 @@ document.addEventListener('DOMContentLoaded', () => {
               <p class="text-gray-400 text-sm leading-relaxed">${item.roi}</p>
             </div>
           </div>
-          <button class="absolute -top-3 -right-3 text-xs font-english text-gray-400 hover:text-optiline-gold bg-black px-2 py-1 rounded transition flex items-center gap-1 copy-btn border border-gray-700 opacity-0 group-hover:opacity-100 shadow-lg">
-            <i data-lucide="copy" class="w-3 h-3"></i> Copy Audit
+          <button class="absolute -top-3 -right-3 text-[10px] font-english text-gray-400 hover:text-optiline-gold bg-black px-2 py-1 rounded transition flex items-center gap-1 copy-btn border border-gray-700 opacity-0 group-hover:opacity-100 shadow-lg">
+            <i data-lucide="copy" class="w-3 h-3"></i> <span class="hidden sm:inline">Copy Audit</span>
           </button>
         </div>
       `;
@@ -296,26 +328,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderScripts() {
     let html = `
-      <div class="bg-optiline-gray border border-optiline-gold/30 text-gray-300 p-4 rounded-lg flex items-center gap-3 font-english text-sm max-w-4xl mb-8 fade-in mx-auto" dir="ltr">
-        <div class="w-2 h-2 rounded-full bg-optiline-gold animate-pulse"></div>
-        <strong>CRITICAL ANGLE:</strong> Texts explicitly state "No retainers", "Fixed-scope asset handover", "Brand/Content/Ad Setup", and mention exact package scope (e.g. 21 days, 30 assets).
+      <div class="bg-optiline-gray border border-optiline-gold/30 text-gray-300 p-4 rounded-lg flex items-center gap-3 font-english text-xs md:text-sm max-w-4xl mb-8 fade-in mx-auto" dir="ltr">
+        <div class="w-2 h-2 rounded-full bg-optiline-gold animate-pulse shrink-0"></div>
+        <strong>CRITICAL ANGLE:</strong> Texts explicitly state "No retainers", "Fixed-scope asset handover", "Brand/Content/Ad Setup", and mention exact package scope.
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 fade-in" dir="ltr">
     `;
-    scriptsData.forEach(item => {
+    scriptsData.forEach((item, index) => {
+      const letter = String.fromCharCode(65 + index);
+      const isDone = doneState[item.company];
+      const cardClass = isDone ? 'bg-[#050505] border-gray-800 opacity-60 grayscale' : 'bg-[#111111] border-optiline-border';
+      const letterClass = isDone ? 'bg-gray-900 text-gray-600 border-gray-800' : 'bg-optiline-gold/20 text-optiline-gold border-optiline-gold/30';
+      const indicatorClass = isDone ? 'bg-gray-800' : 'bg-optiline-gold/30 group-hover:bg-optiline-gold';
+      const btnClass = isDone 
+        ? 'bg-green-500/10 text-green-500 border-green-500/30' 
+        : 'bg-black text-gray-500 border-gray-700 hover:text-white hover:border-gray-500';
+
       html += `
-        <div class="bg-[#111111] border border-optiline-border p-8 rounded-lg relative overflow-hidden group">
-          <div class="absolute top-0 left-0 w-1 h-full bg-optiline-gold/30 group-hover:bg-optiline-gold transition-colors"></div>
-          <div class="flex justify-between items-center mb-6">
-            <h3 class="text-xl font-display font-bold text-white flex items-center gap-2">
-              ${item.company}
-              <span class="text-xs font-english text-gray-500 bg-black px-2 py-1 rounded border border-gray-800 tracking-wider">1:20s Target</span>
+        <div class="${cardClass} border p-5 md:p-8 rounded-lg relative overflow-hidden group transition-all duration-500">
+          <div class="absolute top-0 left-0 w-1 h-full ${indicatorClass} transition-colors"></div>
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4 pl-3">
+            <h3 class="text-lg md:text-xl font-display font-bold text-white flex items-center gap-3 w-full">
+              <span class="flex items-center justify-center w-8 h-8 rounded ${letterClass} border shrink-0">${letter}</span>
+              <span class="truncate">${item.company}</span>
+              <span class="text-[10px] font-english text-gray-500 bg-black px-2 py-1 rounded border border-gray-800 tracking-wider hidden sm:block">1:20s Target</span>
             </h3>
-            <button class="text-xs font-english text-gray-400 hover:text-optiline-gold bg-optiline-gray hover:bg-black px-3 py-1.5 rounded transition flex items-center gap-2 copy-btn border border-gray-700">
-              <i data-lucide="copy" class="w-3 h-3"></i> Copy Script
-            </button>
+            <div class="flex gap-2 w-full sm:w-auto shrink-0 mt-2 sm:mt-0">
+              <button class="done-toggle flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-1.5 rounded text-[11px] font-bold border transition-colors ${btnClass}" data-company="${item.company}">
+                <i data-lucide="check-circle" class="w-3 h-3"></i> <span>${isDone ? 'DONE' : 'MARK'}</span>
+              </button>
+              <button class="flex-1 sm:flex-none text-[11px] font-english text-gray-400 hover:text-optiline-gold bg-optiline-gray hover:bg-black px-3 py-1.5 rounded transition flex items-center justify-center gap-2 copy-btn border border-gray-700">
+                <i data-lucide="copy" class="w-3 h-3"></i> <span>Copy Script</span>
+              </button>
+            </div>
           </div>
-          <div class="font-english text-sm text-gray-300 leading-[1.9] whitespace-pre-wrap focus:outline-none p-5 bg-black/40 rounded border border-gray-800/50 shadow-inner copy-target">${item.script}</div>
+          <div class="font-english text-sm text-gray-300 leading-[1.8] whitespace-pre-wrap focus:outline-none p-4 md:p-5 bg-black/40 rounded border border-gray-800/50 shadow-inner copy-target ml-1">${item.script}</div>
         </div>
       `;
     });
@@ -326,18 +373,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderVisuals() {
     let html = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 fade-in">';
-    visualGuidesData.forEach(item => {
+    visualGuidesData.forEach((item, index) => {
+      const letter = String.fromCharCode(65 + index);
+      const isDone = doneState[item.company];
+      const cardClass = isDone ? 'bg-[#050505] border-gray-800 opacity-60 grayscale' : 'bg-optiline-gray border-optiline-border';
+      const headerBorderClass = isDone ? 'border-gray-800' : 'border-optiline-border';
+      const letterClass = isDone ? 'bg-gray-900 text-gray-500 border-gray-700' : 'bg-optiline-gold/20 text-optiline-gold border-optiline-gold/30';
+      const btnClass = isDone 
+        ? 'bg-green-500/10 text-green-500 border-green-500/30' 
+        : 'bg-optiline-gray text-gray-400 border-gray-700 hover:text-white hover:border-gray-500';
+
       html += `
-        <div class="bg-optiline-gray border border-optiline-border rounded-lg overflow-hidden flex flex-col group relative">
-          <button class="absolute top-3 left-20 z-10 text-[10px] font-english text-gray-400 hover:text-optiline-gold bg-black px-2 py-1 rounded transition flex items-center gap-1 copy-btn border border-gray-700 opacity-0 group-hover:opacity-100 hidden md:flex" dir="ltr">
-            <i data-lucide="copy" class="w-3 h-3"></i>
-          </button>
-          <div class="bg-black p-4 border-b border-optiline-border flex justify-between items-center" dir="ltr">
-            <h3 class="font-display font-bold text-lg text-white">${item.company}</h3>
-            <div class="flex gap-2">
-               <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
-               <span class="w-3 h-3 rounded-full bg-yellow-500/80"></span>
-               <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
+        <div class="${cardClass} border rounded-lg overflow-hidden flex flex-col group relative transition-all duration-500">
+          <div class="bg-black p-4 border-b ${headerBorderClass} flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4" dir="ltr">
+            <h3 class="font-display font-bold text-lg text-white flex items-center gap-3 w-full sm:w-auto">
+              <span class="flex items-center justify-center w-7 h-7 rounded ${letterClass} border text-sm shrink-0">${letter}</span>
+              <span class="truncate pr-2">${item.company}</span>
+            </h3>
+            <div class="flex gap-2 w-full sm:w-auto mt-2 sm:mt-0">
+               <button class="done-toggle flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-1.5 rounded text-[11px] font-bold border transition-colors ${btnClass}" data-company="${item.company}">
+                 <i data-lucide="check-circle" class="w-3 h-3"></i> <span>${isDone ? 'DONE' : 'MARK'}</span>
+               </button>
+               <button class="flex-1 sm:flex-none text-[10px] font-english text-gray-400 hover:text-optiline-gold bg-optiline-gray hover:bg-black px-2 py-1.5 rounded transition flex items-center justify-center gap-1 copy-btn border border-gray-700">
+                 <i data-lucide="copy" class="w-3 h-3"></i> <span>Copy</span>
+               </button>
             </div>
           </div>
           <div class="p-6 space-y-5 flex-1 copy-target">
@@ -375,31 +434,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderOutreach() {
     let html = `
-      <div class="bg-optiline-dark/80 border border-optiline-border text-gray-300 p-6 rounded-lg text-center font-arabic mb-8 fade-in mx-auto w-full max-w-4xl relative overflow-hidden">
+      <div class="bg-optiline-dark/80 border border-optiline-border text-gray-300 p-4 md:p-6 rounded-lg text-center font-arabic mb-8 fade-in mx-auto w-full max-w-4xl relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
-        <h3 class="text-optiline-gold font-display font-bold text-2xl mb-4 relative z-10" dir="ltr"><i data-lucide="mail-check" class="inline-block w-6 h-6 mr-2 mb-1"></i> Executive Direct Messaging</h3>
-        <p class="leading-relaxed relative z-10 text-sm">تم ضبط هذه الرسائل لتعكس قيم (الدفع بالعملات الرقمية، رفض عقود الاحتكار، التسليم الثابت للأصول). وهي مخصصة لإرسالها عبر <span class="text-white font-bold px-1">Email</span> أو <span class="text-white font-bold px-1">LinkedIn</span> لترفق معها روابط الفيديوهات المخصصة.</p>
+        <h3 class="text-optiline-gold font-display font-bold text-xl md:text-2xl mb-4 relative z-10" dir="ltr"><i data-lucide="mail-check" class="inline-block w-6 h-6 mr-2 mb-1"></i> Executive Direct Messaging</h3>
+        <p class="leading-relaxed relative z-10 text-xs md:text-sm">تم ضبط هذه الرسائل لتعكس قيم (الدفع بالعملات الرقمية، رفض عقود الاحتكار، التسليم الثابت للأصول). وهي مخصصة لإرسالها عبر <span class="text-white font-bold px-1">Email</span> أو <span class="text-white font-bold px-1">LinkedIn</span> لترفق معها روابط الفيديوهات المخصصة.</p>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 fade-in">
     `;
-    outreachData.forEach(item => {
+    outreachData.forEach((item, index) => {
+      const letter = String.fromCharCode(65 + index);
+      const isDone = doneState[item.company];
+      const cardClass = isDone ? 'bg-[#050505] border-gray-800 opacity-60 grayscale' : 'bg-[#111111] border-optiline-border hover:border-optiline-gold/40';
+      const letterClass = isDone ? 'bg-gray-900 text-gray-600 border-gray-800' : 'bg-optiline-gold/20 text-optiline-gold border-optiline-gold/30';
+      const btnClass = isDone 
+        ? 'bg-green-500/10 text-green-500 border-green-500/30' 
+        : 'bg-black text-gray-500 border-gray-700 hover:text-white hover:border-gray-500';
+
       html += `
-        <div class="bg-[#111111] border border-optiline-border hover:border-optiline-gold/40 transition-colors p-6 rounded-lg relative group flex flex-col shadow-xl">
-          <div class="flex justify-between items-center mb-6 border-b border-gray-800 pb-4" dir="ltr">
-            <h3 class="font-display font-bold text-lg text-white truncate pr-4">${item.company}</h3>
-            <button class="flex-shrink-0 text-xs font-english text-gray-400 hover:text-optiline-gold bg-optiline-gray hover:bg-black px-3 py-1.5 rounded transition flex items-center gap-2 copy-btn border border-gray-700 shadow-sm">
-              <i data-lucide="copy" class="w-3 h-3"></i> Copy MSG
-            </button>
+        <div class="${cardClass} border transition-colors duration-500 p-5 md:p-6 rounded-lg relative group flex flex-col shadow-xl">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 border-b border-gray-800 pb-4 gap-4" dir="ltr">
+            <h3 class="font-display font-bold text-lg text-white flex items-center gap-3 w-full">
+              <span class="flex items-center justify-center w-7 h-7 rounded ${letterClass} text-sm border shrink-0">${letter}</span>
+              <span class="truncate">${item.company}</span>
+            </h3>
+            <div class="flex gap-2 w-full sm:w-auto shrink-0 mt-1 sm:mt-0">
+               <button class="done-toggle flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-1.5 rounded text-[11px] font-bold border transition-colors ${btnClass}" data-company="${item.company}">
+                 <i data-lucide="check-circle" class="w-4 h-4"></i> <span>${isDone ? 'DONE' : 'MARK'}</span>
+               </button>
+               <button class="flex-1 sm:flex-none text-[11px] font-english text-gray-400 hover:text-optiline-gold bg-optiline-gray hover:bg-black px-3 py-1.5 rounded transition flex items-center justify-center gap-2 copy-btn border border-gray-700 shadow-sm">
+                 <i data-lucide="copy" class="w-3 h-3"></i> <span>Copy MSG</span>
+               </button>
+            </div>
           </div>
           
           <div class="mb-6 flex-1">
-            <span class="text-xs text-optiline-gold uppercase tracking-widest font-english mb-3 block opacity-80">Pitch Copy (English)</span>
-            <div class="font-english text-sm text-gray-200 leading-[1.8] whitespace-pre-wrap bg-black/60 p-5 rounded border border-gray-800/80 copy-target" dir="ltr">${item.englishMessage}</div>
+            <span class="text-[10px] sm:text-xs text-optiline-gold uppercase tracking-widest font-english mb-3 block opacity-80">Pitch Copy (English)</span>
+            <div class="font-english text-xs sm:text-sm text-gray-200 leading-[1.8] whitespace-pre-wrap bg-black/60 p-4 sm:p-5 rounded border border-gray-800/80 copy-target" dir="ltr">${item.englishMessage}</div>
           </div>
           
           <div class="mt-auto pt-4 border-t border-gray-800/50">
             <span class="text-[10px] text-gray-500 uppercase tracking-widest font-english mb-2 block text-right pr-2">Arabic Explanation</span>
-            <div class="font-arabic text-xs text-gray-500 leading-relaxed whitespace-pre-wrap bg-optiline-dark/50 p-3 rounded border border-gray-800/30 text-right">${item.arabicTranslation}</div>
+            <div class="font-arabic text-[11px] sm:text-xs text-gray-500 leading-relaxed whitespace-pre-wrap bg-optiline-dark/50 p-3 rounded border border-gray-800/30 text-right">${item.arabicTranslation}</div>
           </div>
         </div>
       `;
