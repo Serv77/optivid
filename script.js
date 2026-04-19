@@ -2,141 +2,141 @@
 
 const auditData = [
   {
-    company: "Waterfront Law",
-    url: "waterfront.law",
-    niche: "مكتب محاماة تقني (Boutique Law)",
+    company: "Waterhouse Young Clinic",
+    url: "waterhouseyoung.com",
+    niche: "عيادة تجميل طبية فائقة الفخامة",
     location: "لندن، المملكة المتحدة",
-    flaw: "التحليل البصري الدقيق: الموقع يعتمد بشكل مفرط وفرعي على قوائم منسدلة كثيفة (Drop-downs) وخاصة في قسم الخدمات (Our Services) مثل الملكية الفكرية والشركات. غياب مساحات الراحة البصرية، واعتماد كلي على نصوص جامدة (Walls of Text) دون أي فيديوهات تبني الثقة أو تصف خبرات المحامين بشكل شخصي في صفحة (Our People). الإعلانات المرئية قديمة وتستهدف الجمهور الخاطئ.",
-    solution: "حزمة CORE - إعادة هندسة هوية بصرية فاخرة، تحويل صفحات الخدمات المعقدة إلى مسارات مبسطة بتوجيه مرئي (Visual Funnels)، وإنتاج فيديوهات قيادة فكرية (Thought Leadership) للشركاء لترسيخ مكانتهم كمرجعية قانونية موثوقة في لندن.",
-    roi: "القطاع القانوني يعتمد بنسبة 90% على 'الثقة المسبقة'. توحيد الهوية الفاخرة سيقلل التردد لدى المدراء التنفيذيين، ويزيد معدلات التحويل بشكل فوري، مما يضمن استقطاب قضايا وعملاء ذوي قيمة عالية (High-Ticket) تفوق تكلفة الحزمة بأضعاف."
+    flaw: "التحليل البصري الدقيق: العيادة تقع في واحدة من أرقى مناطق لندن وتستهدف نخبة المجتمع، لكن حساباتهم وبصمتهم المرئية تفتقر تماماً للقصة والمشاعر. المحتوى طبي وجاف يعتمد على صور تقليدية، مما يضعهم في مقارنة سعرية مع العيادات الأقل مستوى. الاستهداف الإعلاني غير مخصص وغير مصمم بدقة لجذب الطبقة الثرية (UHNW). لا يوجد محتوى فيديو سينمائي يعكس 'التجربة الفاخرة' التي يدفع العميل من أجلها.",
+    solution: "حزمة MATRIX (البناء المرئي والإعلانات الدقيقة) - لن نقوم ببرمجة موقع. سنقوم بإعادة هندسة الهوية البصرية (Brand Identity)، إنتاج محتوى وثائقي سينمائي قصير لتجربة العميل، وإطلاق حملات إعلانية (Retargeting) صارمة وموجهة جغرافياً واهتمامياً للنخبة.",
+    roi: "عندما تتوقف العيادة عن الظهور كـ'مقدم خدمة طبية' وتتحول عبر المحتوى إلى 'علامة تجارية فاخرة ونمط حياة'، ستتمكن من رفع الأسعار وتجاهل المنافسة، مما يضاعف العائد الإعلاني (ROAS) ويستقطب عملاء لا يناقشون السعر."
   },
   {
-    company: "Premier Cosmetic Surgery",
-    url: "premiercosmeticla.com",
-    niche: "عيادة تجميل وجراحة فاخرة",
-    location: "لوس أنجلوس، الولايات المتحدة",
-    flaw: "التحليل البصري الدقيق: في إحدى أكثر المدن تنافساً (LA)، يقدمون خدمات طبية راقية ولكن الموقع يفتقر إلى السرد الفاخر. قسم (Before & After) يعرض الحالات بطريقة طبية جافة ومكررة. الاستهداف الإعلاني غير دقيق ويوحي بأن العيادة موجهة للعامة وليس للنخبة. الهوية البصرية مفككة ولا تعكس الفخامة المتوقعة من هذا المستوى المتميز.",
-    solution: "حزمة MATRIX - تنفيذ استراتيجية محتوى مرئي متعدد القنوات. سنحول صور (قبل وبعد) إلى سلسلة وثائقية قصيرة وسينمائية لرحلة العملاء، مقرونة بإعلانات موجهة بدقة عالية للمجتمعات الراقية وبيفرلي هيلز.",
-    roi: "عندما ترفع القيمة المدركة (Perceived Value) عبر محتوى سينمائي فاخر، ستتمكن العيادة من رفع أسعارها والخروج من دائرة المنافسة على السعر، مما يضاعف العائد على الإنفاق الإعلاني (ROAS) بشكل هائل وتحويل سرديتهم البصرية إلى قصص سريعة الانتشار."
+    company: "26 North Yachts",
+    url: "26northyachts.com",
+    niche: "وساطة وبيع اليخوت الفاخرة",
+    location: "فلوريدا، الولايات المتحدة",
+    flaw: "التحليل البصري الدقيق: القوارب واليخوت المعروضة تقدر بملايين الدولارات، ولكن الهوية المرئية للوكالة والوكلاء (Brokers) تبدو عادية جداً على منصات التواصل. لا توجد علامة تجارية شخصية قوية للوسطاء عبر مقاطع فيديو تبرز سلطتهم في هذا المجال. الحملات الإعلانية تعتمد على عرض اليخت، وليس على سرد قصة امتلاك اليخت لاستهداف المليونيرات بشكل صحيح.",
+    solution: "حزمة NEXUS (استحواذ النظام البيئي) - ترقية الهوية المرئية بالكامل، وضع استراتيجية محتوى مكثفة تتمحور حول 'شخصية وخبرة الوسيط' (Broker Authority Videos)، وتنفيذ نظام إعلاني عالي التوجيه (High-Ticket Funnel) يصل حصرياً لأصحاب الثروات.",
+    roi: "في عالم اليخوت، المستثمر يشتري الثقة في الوسيط قبل اليخت. بناء نظام محتوى وهوية مترابط سيبرر العمولات الضخمة ويضع الوكالة كخيار حتمي وغير قابل للمنافسة أمام المشترين الدوليين."
   },
   {
-    company: "Miami Luxury Real Estates",
-    url: "miamiluxuryrealestates.com",
-    niche: "وكالة عقارات فائقة الفخامة",
-    location: "ميامي، الولايات المتحدة",
-    flaw: "التحليل البصري الدقيق: صفحة المشاريع المميزة (Featured Properties) تعرض عقارات مذهلة بصور عالية الدقة (Static Images)، ولكن يوجد ضعف شديد وخطير في بناء العلامة التجارية الشخصية للوكلاء. صفحة الفريق (The Team) تفتقر تماماً لمحتوى الفيديو الجذاب الذي يروي قصص الوكلاء وعمق علاقاتهم. الهيكل الإعلاني غير مترابط ولا يُبرز الحصرية.",
-    solution: "حزمة NEXUS - استحواذ كامل على النظام البيئي الرقمي. دمج جولات فيديو عقارية درامية مع بناء علامة تجارية شخصية طاحنة لكل وكيل، مدعومة بإعلانات متزامنة تستهدف المستثمرين الدوليين.",
-    roi: "في العقارات الفاخرة، يشتري العميل 'الوكيل' قبل أن يشتري 'العقار'. هذا النظام البيئي الموحد سيبرر العمولات المرتفعة، ويعزل المنافسين، ويجذب المشترين الدوليين وأصحاب الثروات المليارية (UHNWI) حصرياً لهذه الوكالة."
+    company: "Rene Dekker Design",
+    url: "renedekker.co.uk",
+    niche: "استوديو تصميم داخلي فاخر",
+    location: "لندن، المملكة المتحدة",
+    flaw: "التحليل البصري الدقيق: الأعمال والتصاميم المنجزة مدهشة، ولكن الهوية الرقمية للاستوديو صامتة تماماً. المحتوى يعتمد على صور ثابتة (Photos) خالية من الحياة. لا يوجد أي محتوى فيديو (Thought Leadership) للمصمم يشرح فلسفته المعقدة، ولا يوجد تواجد إعلاني نشط لاستهداف أصحاب العقارات الفارهة والمطورين.",
+    solution: "حزمة CORE (الهوية والمحتوى التأسيسي) - العمل يركز 100% على العلامة التجارية؛ تحديث النمط البصري، إخراج مقاطع فيديو سينمائية تتحدث عن فلسفة التصميم لجذب العملاء عاطفياً، وتحويل المعرض الصامت إلى آلة توليد ثقة.",
+    roi: "التصميم الداخلي هو قرار عاطفي. المحتوى المرئي الفاخر سيسرّع عملية اتخاذ القرار للملاك، ويحوّل الاستوديو من مجرد خيار في قائمة، إلى رغبة حصرية للعميل تبرر التسعير المرتفع للخدمة."
   },
   {
-    company: "Vontobel Wealth",
-    url: "vontobel.com",
-    niche: "إدارة الثروات الخاصة والاستثمار",
-    location: "زيورخ، سويسرا",
-    flaw: "التحليل البصري الدقيق: موقع إلكتروني ضخم ولكنه يمتلك طابعاً كلاسيكياً ومملاً جداً (Corporate PR). أقسام إدارة الثروات (Wealth Management) مكدسة بالبيانات الصحفية واللغة المعقدة. القطاع المالي هنا يفتقر تماماً للجانب الإنساني؛ لا يوجد محتوى فيديو تثقيفي يربط المستشارين بالعملاء. ولا توجد استراتيجية إعلانية لاستهداف الأجيال الأصغر.",
-    solution: "حزمة CORE - إعادة بناء الحضور الرقمي لزرع الثقة الفورية. إنشاء محتوى فيديو تأسيسي وتثقيفي ينزع الغموض عن الاستثمار، ويعكس خبراتهم العميقة بأسلوب حديث وجذاب يناسب الجيل الجديد.",
-    roi: "أكبر تهديد للوكالات المالية العريقة هو فقدان الاتصال بالجيل الجديد من ورثة الثروات (Next-Gen Wealth). تحديث عامل الثقة بصرياً سيسد هذه الفجوة ويمكّنهم من استحواذ هذه الشريحة الضخمة قبل أن تذهب للبنوك الرقمية الحديثة."
+    company: "Stratos Jet Charters",
+    url: "stratosjets.com",
+    niche: "تأجير طائرات خاصة (Private Aviation)",
+    location: "أورلاندو، الولايات المتحدة",
+    flaw: "التحليل البصري الدقيق: الهوية البصرية تبدو وكأنها وكالة سياحة وحجوزات عادية، وليست نادياً حصرياً للمدراء التنفيذيين والأثرياء. المحتوى ممل ويركز على المواصفات بدلاً من الحصرية والراحة. الأهم من ذلك، غياب استراتيجية إعلانات (B2B) موجهة لاصطياد المدراء التنفيذيين للشركات الضخمة وصناع القرار عبر منصات مثل LinkedIn.",
+    solution: "حزمة MATRIX (المحتوى المرئي والإعلانات الدقيقة) - إعادة صياغة زاوية العلامة التجارية لتكون حصرية. إنتاج محتوى مرئي يعكس الفخامة القصوى، وإطلاق نظام إعلانات (Account-Based Marketing) يستهدف مدراء الشركات والمسؤولين التنفيذيين مباشرة.",
+    roi: "رحلة طيران خاصة واحدة قد تغطي تكلفة الاستثمار. تغيير التموضع البصري والإعلاني لتحاكي (النوادي الخاصة) سيقلل من تكلفة الاستحواذ على العميل (CAC) ويزيد من معدلات الاحتفاظ (Retention) للرحلات المستقبلية."
   },
   {
-    company: "Graft Architects",
-    url: "graftlab.com",
-    niche: "هندسة معمارية وتصميم النخبة",
-    location: "برلين، ألمانيا",
-    flaw: "التحليل البصري الدقيق: قسم المشاريع (Projects) يعرض شبكة صور مذهلة بصرياً، ولكنها تعاني من الجمود الرقمي. الموقع يبدو كملف PDF ثابت يتم تصفحه. غياب تام للسرد القصصي (Storytelling) وراء كل مشروع معقد. بالإضافة إلى ذلك، لا توجد أي آلية لتوليد العملاء (Lead Generation) أو توجيه الزوار بوضوح نحو طلب الاستشارة المقفلة، مع انعدام التواجد الإعلاني المؤثر.",
-    solution: "حزمة MATRIX - تفعيل ملف الإنجازات (Portfolio) ليصبح نابضاً بالحياة عبر محتوى فيديو سينمائي تفاعلي (Video Case Studies)، وإعلانات موجهة بعناية نحو المطورين العقاريين وكبار المستثمرين.",
-    roi: "بدون مسار مبيعات (Funnel) واضح، تبقى المشاهدات مجرد إعجابات فارغة. المحتوى المدعوم بالقصص، والمدمج مع الاستهداف الإعلاني الدقيق (B2B)، سينقلهم فوراً من مربع التنافس وتقديم العطاءات إلى مرحلة الطلب الحصري والمباشر."
+    company: "Dege & Skinner",
+    url: "degeandskinner.co.uk",
+    niche: "خياطة رجالية مخصصة (Savile Row)",
+    location: "لندن، المملكة المتحدة",
+    flaw: "التحليل البصري الدقيق: علامة تجارية ذات إرث تاريخي عريق، لكنها تفشل حالياً في جذب الجيل الجديد من المليونيرات ورجال الأعمال الشباب. هويتهم الرقمية على السوشيال ميديا قديمة ومملة، وتغيب عنهم تماماً الإعلانات الموجهة التي تحول هذه الحرفة اليدوية إلى محتوى مبهر يخلق الطلب الفوري.",
+    solution: "حزمة NEXUS (النظام البيئي الشامل) - الجمع بين الفخامة الكلاسيكية والآلة البيعية الحديثة. تصميم هوية رقمية شبابية وفاخرة، تصوير فيديوهات تظهر سحر الحرفة اليدوية بمونتاج سريع، وإطلاق قمع إعلاني موجه للنخبة الشابة الميسورة.",
+    roi: "تحديث الشريحة المستهدفة دون فقدان الإرث. المحتوى الإعلاني المدمج سيجسر الفجوة بين الأجيال ويمكّن العلامة من استحواذ جيل جديد كامل من صُناع الثروات الذين يبحثون عن التفرد."
   },
   {
-    company: "Satov Consultants",
-    url: "satovconsultants.com",
-    niche: "استشارات استراتيجية (B2B)",
-    location: "تورونتو، كندا",
-    flaw: "التحليل البصري الدقيق: يمتلكون كفاءة تقنية عالية جداً ولكن بهوية بصرية باهتة وعامة لا تميزهم عن المستشارين المستقلين. أقسام (Our Work) تعتمد بالكامل على المقالات النصية الطويلة دراسات الحالة المعقدة وتغيب عنها مقاطع الفيديو الديناميكية. استراتيجياتهم الإعلانية تحرق الميزانية في استهداف شبكي واسع بدلاً من استهدافناع القرار بأسلوب مباشر (ABM).",
-    solution: "حزمة NEXUS - إعادة بناء قمع المبيعات بالكامل (Authority Funnel). علامة تجارية فاخرة ومختلفة كلياً، محتوى فيديو مؤثر يختصر النصوص المعقدة، وإعلانات موجهة ببراعة لأسواق الـ B2B وأصحاب القرار.",
-    roi: "في الاستشارات، إطالة دورة المبيعات تعني خسارة الإيرادات. هذا النظام المدمج والفاخر، والذي يتبنى منهجية (Video-First)، سيختصر دورة المبيعات تماماً ويزيد معدلات التحويل المباشر مع تخفيض تكلفة الاستحواذ على العميل (CAC)."
+    company: "Handel Group",
+    url: "handelgroup.com",
+    niche: "استشارات وتوجيه تنفيذي عالي التأثير",
+    location: "نيويورك، الولايات المتحدة",
+    flaw: "التحليل البصري الدقيق: وكالة تمتلك خبرة استشارية قوية جدًا ورسوم اشتراك مرتفعة، ولكن العرض الخارجي (Brand Identity) مزدحم ويعتمد على النصوص بشكل مخيف. لا توجد مقاطع فيديو بإنتاج عالي (High-Production Value) لترسيخ القيادة الفكرية. الإعلانات تبدو مشتتة وتفشل في الوصول لصناع القرار بأسلوب النخبة.",
+    solution: "حزمة CORE (بناء السلطة الرقمية) - تهميش النصوص الطويلة. تجديد الهوية البصرية لتكون حادة وخالية من التعقيد، والتركيز كلياً على إنتاج محتوى فيديو (Thought Leadership) يضع المستشارين في خانة 'الخبراء الذي لا يُعلى عليهم'.",
+    roi: "في مجال الاستشارات، السلطة المعرفية (Authority) هي كل شيء. الفيديوهات المنتجة بعناية والمصممة بهوية بصرية قيادية ستختصر دورة المبيعات وتلغي أي اعتراض من العملاء المحتملين بشأن الأسعار."
   }
 ];
 
 const scriptsData = [
   {
-    company: "Waterfront Law",
-    script: "Hi Waterfront Law team. I was just analyzing your digital presence at waterfront.law, and I noticed a significant gap that is actively costing you premium clients. While your legal expertise in London—especially your corporate and intellectual property work—is undeniably top-tier, your website’s visual identity and content delivery currently feel text-heavy and generic. When high-net-worth clients or corporate directors search for representation, they make snap judgments based entirely on brand cohesion and trust signals. Right now, your reliance on static, dense service pages and lack of authoritative video content is leaking high-value leads to competitors who feature a more modern, commanding digital presence. That is exactly where the Optiline CORE package comes in. We don’t just build websites. Optiline engineers a completely unified digital growth ecosystem. We synchronize your premium brand identity, thought-leadership video content, and targeted ad strategies into one seamless, client-generating machine. Stop losing high-ticket cases to firms with less expertise but better digital branding. Reply directly to this email or visit the Optiline portal today to claim a customized preview of your new, unified digital ecosystem. Let's elevate your firm."
+    company: "Waterhouse Young Clinic",
+    script: "Hi Waterhouse Young team. I’ve been analyzing your digital footprint in London, and I noticed a significant gap that is actively costing you high-ticket clients. Your aesthetic treatments and medical expertise are undeniably world-class, but your external visual branding and social content simply do not reflect that premium status. When affluent clients look for top-tier aesthetic clinics, they make snap judgments based on luxury visual cues and emotional storytelling. Right now, your branding feels too clinical, your social media lacks high-end, cinematic video content, and your ad targeting is blending in with average local salons. That is exactly where the Optiline MATRIX package comes in. To be totally clear: we don’t build websites. We are a specialized growth agency that completely overhauls your digital brand identity, produces premium storytelling video content, and deploys hyper-targeted ads directly to ultra-high-net-worth communities. We synchronize your brand, content, and ads into one seamless, client-generating machine. Stop losing elite clients to clinics with less expertise but better marketing. Reply directly to this email, or visit the Optiline portal today to claim a customized preview of your new digital ecosystem."
   },
   {
-    company: "Premier Cosmetic Surgery",
-    script: "Hi Premier Cosmetic Surgery team. I was reviewing your clinic’s digital footprint in Los Angeles and saw something incredibly concerning. Your aesthetic procedures and technological capabilities are world-class, but your social proof and ad targeting are completely disjointed. You are offering elite, premium services but presenting them to very generic audiences with a fragmented visual brand and out-dated before-and-after galleries. This identity crisis means affluent, high-paying clients are hesitating and booking with your competitors instead. With the Optiline MATRIX package, we solve this immediately. We synchronize a multi-channel visual content strategy with highly precise, hyper-targeted ads, transforming your static social channels into an exclusive, cinematic narrative that commands premium pricing. Do not let an outdated ad structure and generic visual identity diminish your clinical excellence. It's time to build a brand that matches your results. Reply to this message directly, on WhatsApp, or visit the Optiline website right now so we can show you exactly how this premium system scales your practice. Speak soon."
+    company: "26 North Yachts",
+    script: "Hello 26 North Yachts. I was reviewing your digital presence today, and while the yachts you broker in Florida are absolutely incredible multi-million dollar assets, your digital ecosystem is completely fragmented. Ultra-high-net-worth buyers don't just buy a boat; they buy into the absolute authority and extreme confidence of the broker. Right now, your elite agents lack strong, narrative-driven personal branding videos, and your ad strategy is extremely reliant on basic images rather than high-ticket funnels. Because of this, you are visually blending in with standard brokerage firms. The Optiline NEXUS package is engineered specifically to fix this exact problem. Note that we do not do web development—we execute a full premium ecosystem takeover. We synchronize a complete visual brand upgrade, powerful agent-authority video content, and precisely targeted high-net-worth digital ads into a single machine. This positions your brokers as the undeniable luxury authorities in the international yacht market. Stop letting disjointed branding cost you massive commissions. Reply to this email today or visit the Optiline website to see a tailored, high-level preview of your new brand ecosystem."
   },
   {
-    company: "Miami Luxury Real Estates",
-    script: "Hello Miami Luxury Real Estates. I am looking at your featured listings today, and while the properties are absolutely stunning, your digital ecosystem is completely fragmented. Your top agents lack strong, narrative-driven personal branding video content, and your ad structure is entirely disjointed. Ultra-high-net-worth buyers and international investors buy into the authority of the broker just as much as they buy the property itself, and right now, your digital presence is making you blend in with average agencies. The Optiline NEXUS package is engineered specifically for this exact problem. We execute a full ecosystem takeover—synchronizing your luxury brand, premium agent video content, and precisely targeted ads into a single, unified machine. This instantly positions your firm as the undeniable, dominant luxury authority in the Miami market. Stop letting disjointed marketing lower your perceived value and cost you multi-million dollar commissions. Reply to this email today or visit our website to see a tailored, high-level preview of your new digital presence. Let us elevate your brand."
+    company: "Rene Dekker Design",
+    script: "Hi Rene Dekker Design team. Your interior design portfolio is visually incredible—the raw talent and luxury execution in London are obvious. However, your digital presence currently functions like a beautiful, but perfectly silent, museum block. You have absolutely zero storytelling video content breaking down your unique design philosophy, and effectively zero targeted aesthetic presence to capture high-end property developers. Because of this structural gap, you are relying entirely on passive discovery rather than aggressive, high-ticket positioning. With the Optiline CORE package, we completely activate your high-end portfolio. To be clear, we don't code websites; we upgrade your entire visual brand identity. We deploy cinematic video case studies and synchronize them with a premium design language that captures attention instantly. We take your brand and your content, and synchronize them into a sophisticated, highly-tuned visual machine. It is time to shift your firm from being digitally quiet to being the inevitable choice for massive London lifestyle projects. Reply to this message via email or WhatsApp, or visit the Optiline website right now to see how we transform your digital authority."
   },
   {
-    company: "Vontobel Wealth",
-    script: "Hi Vontobel Wealth team. I was studying your firm's digital presence in Zurich and I noticed a critical vulnerability. Your wealth management and investment services are clearly built on profound legacy and expertise, but your website is visually stale and entirely lacks modern, educational authority content. In 2026, this means you are completely missing out on the massive wealth transfer to the next generation of clients, who demand modern digital trust and video engagement before investing a single dollar. We built the Optiline CORE package to fix this exact leak in your pipeline. Optiline reconstructs your foundational brand and deploys high-end thought leadership content that instantly builds unshakeable digital trust and connection. We synchronize this so you look as premium and authoritative online as you do in the boardroom. To see exactly how we can bridge this generational gap and radically modernize your trust factor for elite investors, please reply to this message directly or visit Optiline online today. Talk to you soon."
+    company: "Stratos Jet Charters",
+    script: "Hi Stratos Jet Charters. I was studying your firm's digital footprint today and noticed a critical vulnerability. Your private aviation services are clearly built on profound logistics and luxury, but your external visual identity looks like a standard booking agency rather than an elite, exclusive members' club. In 2026, this means you are continually fighting on price rather than exclusivity, and you are missing out on corporate executives who demand immense visual trust before transferring large sums. We built the Optiline MATRIX package to fix this exact leak in your pipeline. Optiline does not do web development; we reconstruct your foundational brand identity and deploy high-end, lifestyle video content that instantly builds unshakeable digital trust. We synchronize this premium content with hyper-targeted B2B ads pointed directly at corporate decision-makers. We ensure you look as elite and untouchable online as the jets you charter. To see exactly how we can bridge this visual gap and radically modernize your trust factor for elite travelers, please reply to this message directly or visit Optiline online today."
   },
   {
-    company: "Graft Architects",
-    script: "Hi Graft Architects. Your architectural portfolio in Berlin is visually incredible—the raw design talent is obvious. However, your digital website currently functions like a static, silent PDF. You have absolutely zero storytelling video content breaking down your process, and effectively zero targeted ad presence. Because of this structural gap, you are constantly forced to wait and bid on projects instead of having elite developers and clients exclusively request your firm directly. With the Optiline MATRIX package, we completely activate your high-end portfolio. We deploy cinematic video case studies and synchronize them with highly targeted B2B ad campaigns pointed directly at premium real estate developers. We take your brand, your content, and your ads, and synchronize them into a sophisticated, highly-tuned growth ecosystem. It is time to shift your firm from being digitally invisible to being the inevitable choice for massive projects. Reply to this message via email or WhatsApp, or visit the Optiline website right now to see how we transform your digital authority. I look forward to your response."
+    company: "Dege & Skinner",
+    script: "Hello Dege & Skinner. Your bespoke tailoring and Savile Row heritage are absolutely legendary. However, I’ve been analyzing your external digital brand, and it is failing to capture the massive shift in the modern, young millionaire demographic. Your current reliance on outdated visual formats and lack of aggressive, high-end video content is actively allowing newer, less-experienced brands to steal the next generation of wealth. The Optiline NEXUS package changes this dynamic completely. We do not touch your website’s coding. Instead, we tear down and rebuild your digital authority funnel from the ground up—implementing a premium visual brand overhaul, a video-first lifestyle content strategy, and hyper-targeted digital ads aimed at high-income professionals. This unified ecosystem cuts through the noise, honors your heritage, but significantly modernizes your appeal to drive high-ticket bespoke conversions at global scale. You are too prestigious to fade into the background visually. Reply directly to this email today or visit the Optiline website to secure a custom visual walkthrough of how this targeted system will scale your firm’s revenue."
   },
   {
-    company: "Satov Consultants",
-    script: "Hello Satov Consultants. I wanted to reach out because while your strategic B2B consulting expertise in Toronto is obvious and highly technical, your external brand identity is completely generic. Your current reliance on massive text blocks, outdated blog formats, and broad-audience ad targeting is actively burning your marketing budget and drastically extending your sales cycle. The Optiline NEXUS package changes this dynamic completely. We tear down and rebuild your authority funnel from the ground up—implementing a premium visual brand overhaul, a video-first thought leadership content strategy, and hyper-targeted B2B digital ads. This unified ecosystem cuts through the noise, significantly shortens your sales cycle, and drives high-ticket corporate conversions at scale. You are too good to blend in with average, low-tier consultants. Reply directly to this email today or visit the Optiline website to secure a custom architectural walkthrough of how this automated system will scale your firm's revenue. Cheers."
+    company: "Handel Group",
+    script: "Hi Handel Group. I wanted to reach out because while your executive coaching and consulting expertise in New York is clearly top-tier and highly transformative, your external brand identity is completely disjointed. Your current strategy's reliance on massive text blocks, standard social graphics, and broad-audience ad targeting is actively burning your marketing budget and drastically extending your client acquisition cycle. High-level executives do not have time to read; they need to be visually convinced in seconds. We built the Optiline CORE package specifically for this. Optiline does not build websites—we engineer complete visual authority. We synchronize a premium brand identity upgrade alongside high-production, aggressive thought-leadership video content. This positions your partners as absolute, undeniable experts in the feed, cutting your sales cycle in half and driving high-ticket corporate conversions at scale. Stop blending in with standard life-coaches and average consultants. Reply directly to this email today or visit the Optiline website right now to secure a custom architectural walkthrough of how this exact brand and content system will scale your consultancy."
   }
 ];
 
 const visualGuidesData = [
   {
-    company: "Waterfront Law",
+    company: "Waterhouse Young Clinic",
     timeline: [
-      { time: "[0:00 - 0:15]", instruction: "ابدأ بتسجيل شاشتك الحقيقية في الصفحة الرئيسية (waterfront.law). حرّك مؤشر الفأرة نحو القائمة العلوية (Our Services)، انقر على قسم (Intellectual Property) لديهم، وقم بالتمرير للأسفل (Scroll) ببطء شديد لإظهار كمية النصوص الهائلة والشكل المكدس والممل للفقرات." },
-      { time: "[0:15 - 0:35]", instruction: "انتقل سريعا إلى صفحة (Our People) لعرض قائمة المحامين. حدد بمؤشرك على صورهم الثابتة، لإيصال الفكرة المرئية المتمثلة في الغياب التام لقصص الفيديو التفاعلية (Thought Leadership Videos) التي تعتبر أساس الثقة للعميل الفاخر." },
-      { time: "[0:35 - 1:05]", instruction: "انتقال مفاجئ وأنيق بطريقة (Fade Through Black) إلى أمثلة من عمل Optiline لحزمة CORE. عرض واجهة موقع محاماة أخرى قمنا بتطويرها أو قالب فاخر: مساحات فارغة متناسقة، فيديو سينمائي خفيف في الخلفية، وقمع مبيعات واضح للاستشارات الحصرية." },
-      { time: "[1:05 - 1:20]", instruction: "شاشة Optiline الختامية الداكنة (Optiline_Outro) المذكورة في خطة الإنتاج. شعار Optiline يلمع بالذهبي مع نص الـ CTA الواضح المكتوب في الخطة." }
+      { time: "[0:00 - 0:15]", instruction: "ابدأ بتسجيل حساب الانستغرام الفعلي للعيادة (أو صفحة المعرض في الموقع). مرر الفأرة ببطء فوق الصور الطبية الباردة. توقف قليلاً واستخدم تأثير التقريب (Zoom-in) لإظهار كيف أن هذه الصور تفتقر إلى أي 'تجربة فاخرة' أو قصة." },
+      { time: "[0:15 - 0:35]", instruction: "افتح مكتبة إعلانات فيسبوك (Ad Library) أو تخيل إعلاناتهم. أشر إلى كيف أن الاستهداف يبدو عاماً جداً. أثناء قراءة السكريبت عن 'الهوية المفككة'، ضع دائرة بصرية (Visual Highlight) لتبيان افتقارهم لمقاطع الفيديو السينمائية." },
+      { time: "[0:35 - 1:05]", instruction: "انتقال ناعم (Fade Through White) إلى حزمة MATRIX الخاصة بنا. اعرض لقطات من هويات بصرية فاخرة قمنا بتطويرها لعيادات، ومقاطع فيديو احترافية تظهر الفخامة، ونماذج لاعلاناتنا الموجهة للنخبة (High-Ticket Ads)." },
+      { time: "[1:05 - 1:20]", instruction: "شاشة Optiline الختامية الداكنة (Optiline_Outro). الشعار الذهبي يستقر بثبات، والمخرج يحرص على جعل النص الختامي (CTA) بارزاً بأننا نصنع الهوية ولا نبرمج المواقع." }
     ]
   },
   {
-    company: "Premier Cosmetic Surgery",
+    company: "26 North Yachts",
     timeline: [
-      { time: "[0:00 - 0:15]", instruction: "تسجيل حي لموقع (premiercosmeticla.com). انتقل فوراً إلى معرض الصور (Before & After Gallery) وتصفح الحالات المعروضة. توقف وقم بعمل إبراز (Highlight effect) في برنامج المونتاج على الجودة البصرية التقليدية للموقع التي لا توحي بكونهم في منطقة لوس أنجلوس الراقية." },
-      { time: "[0:15 - 0:35]", instruction: "اذهب إلى صفحة (Procedures) للعمليات، وأظهر غياب أي مقاطع فيديو تشرح التجربة الفاخرة للعميل. أضف تأثير ضبابي خفيف (Blur) على القوائم المزدحمة لتعكس فكرة 'الهوية المفككة'." },
-      { time: "[0:35 - 1:05]", instruction: "انتقال درامي إلى عرض حزمة MATRIX. شغّل لقطات سريعة واحترافية لفيديوهات سينمائية طبية تجميلية (High-end Clinic B-roll)، وعرض لشكل إعلانات Instagram و TikTok المستهدفة ببراعة كيف تبدو عند تنفيذها بنظام Optiline المتكامل." },
-      { time: "[1:05 - 1:20]", instruction: "شاشة Optiline الختامية الداكنة. يجب أن تكون الكلمات (Captions) في أجزاء الثواني الأخيرة متوافقة تماما مع حركة ظهور النص في الفيديو للدعوة إلى زيارة موقع Optiline." }
+      { time: "[0:00 - 0:15]", instruction: "قم بتسجيل فيديو لقسم الوسطاء (Brokers) في موقعهم أو منصاتهم الاجتماعية. حرك الفأرة على صور الوسطاء الثابتة. المشهد يجب أن يبرز غياب المحتوى المرئي الذي يبني 'الثقة الشخصية'." },
+      { time: "[0:15 - 0:35]", instruction: "انتقل إلى إعلاناتهم، وأبرز كيف يعتمدون على صور اليخوت فقط بدون بناء مسار مبيعات (Funnel) محكم. سرّع حركة التمرير للإيحاء بأن علامتهم تضيع وسط زحمة السوق." },
+      { time: "[0:35 - 1:05]", instruction: "تغيير سريع للإيقاع (Hard Cut). عرض حزمة NEXUS. استعرض لقطات فيديو تخيلية لوكيل يخت يتحدث أمام الكاميرا بثقة عالية، مع استعراض أمثلة على (Branding) قوي وهيكلة إعلانية منظمة تستهدف الأثرياء." },
+      { time: "[1:05 - 1:20]", instruction: "ظهور الشاشة الختامية السوداء بخطوط ذهبية لشعار Optiline. الحفاظ على الصمت البصري لثانيتين لتعزيز الفخامة مع التركيز على رسالة الرد المباشر." }
     ]
   },
   {
-    company: "Miami Luxury Real Estates",
+    company: "Rene Dekker Design",
     timeline: [
-      { time: "[0:00 - 0:15]", instruction: "بدء التسجيل من موقع (miamiluxuryrealestates.com). مرر واجهة الصفحة الرئيسية بسرعة عبر صور القصور الفاخرة، ثم اذهب مباشرة وابحث عن صفحة وكلاء العقارات ومسؤولي المبيعات." },
-      { time: "[0:15 - 0:35]", instruction: "بينما تقرأ السكريبت عن 'هيكلية الإعلانات غير المترابطة وضياع هوية الوكيل'، قم بالتأشير بالماوس على ملفات الوكلاء الشخصية الخالية من أي فيديو سردي. استخدم تأثير التكبير (Zoom in) في المونتاج على هذه النقطة الحرجة." },
-      { time: "[0:35 - 1:05]", instruction: "تحول جذري وقوي (Glitch or Clean Slide Transition) في العرض إلى حزمة NEXUS. اعرض لقطات تخيلية من محفظة Optiline: وكيل عقاري يقف أمام قصر فخم بتصوير احترافي، يليه شكل قمع مبيعات (Funnel) وإعلانات منظمة." },
-      { time: "[1:05 - 1:20]", instruction: "الشاشة الختامية القياسية لوكالة Optiline، تظهر بثبات وقوة مع استقرار طبقة الصوت للدعوة للتواصل المباشر لترقية العلامة التجارية." }
+      { time: "[0:00 - 0:15]", instruction: "تسجيل حي لموقع أو انستغرام الاستوديو. تصفح صور المشاريع الرائعة جداً، ولكن أظهر 'الهدوء والصمت' المبالغ فيه. لا يوجد تفاعل، لا يوجد فيديو يعكس فلسفة المصمم." },
+      { time: "[0:15 - 0:35]", instruction: "ركز الماوس على النصوص الجافة المرافقة للصور. الهدف هو إيصال فكرة التناقض: تصميم داخلي فاخر يقابله محتوى رقمي متجمد لا يساعد في اصطياد العملاء." },
+      { time: "[0:35 - 1:05]", instruction: "انتقال (Wipe left) احترافي لاستعراض حزمة CORE. أظهر أمثلة على تصميم هويات العلامات التجارية الفاخرة (Brand Overhauls) ومقاطع فيديو مقابلات سينمائية مع المصممين (Thought Leadership)." },
+      { time: "[1:05 - 1:20]", instruction: "استقرار الشاشة على صورة Optiline_Outro الداكنة القوية، مع استمرار الموسيقى الهادئة في الخلفية، ودعوة صريحة بأننا الحل المرئي والمحتوى، وليس كود الموقع." }
     ]
   },
   {
-    company: "Vontobel Wealth",
+    company: "Stratos Jet Charters",
     timeline: [
-      { time: "[0:00 - 0:15]", instruction: "تسجيل واجهة موقع (vontobel.com). توجه إلى قسم (Insights) أو قسم إدارة الثروات. أظهر كثرة الأخبار ذات الطابع المؤسساتي البارد (Corporate PR) والبيانات الصحفية الجافة." },
-      { time: "[0:15 - 0:35]", instruction: "بينما يقول الصوت (Visuals are stale and lacks educational authority)، قم بالتمرير للأسفل على إحدى المقالات النصية الطويلة جداً لبيان مدى ملل التجربة للعميل الشاب الذي سيرث الثروة في عام 2026." },
-      { time: "[0:35 - 1:05]", instruction: "انتقال سلس (Smooth Wipe) إلى حزمة CORE. عرض منصة مالية حديثة قمنا بتصميمها أو واجهة تخيلية تعتمد على لون عميق (Deep Blue or Black) مع واجهات بيانات دقيقة، ولقطة قصيرة لمستشار مالي يتحدث أمام الكاميرا بثقة تامة." },
-      { time: "[1:05 - 1:20]", instruction: "تختتم بمشهد Optiline الموحد، مع بروز أيقونة البريد الإلكتروني والموقع بوضوح ليقوم المدير المالي بأخذ خطوة مباشرة بعيدة عن المكالمات الاستكشافية التقليدية." }
+      { time: "[0:00 - 0:15]", instruction: "تصفح موقع أو حسابات الطيران الخاص. أشر بمؤشرك على الهوية البصرية (اللوجو، الألوان، الصور) التي تبدو وكأنها 'شركة سياحة وتذاكر' بدلاً من 'نادي حصري للأثرياء'." },
+      { time: "[0:15 - 0:35]", instruction: "بينما تقرأ عن 'ضعف استهداف الـ B2B'، قم بالإشارة إلى عدم وجود أي محتوى فيديو يخاطب وقت المدير التنفيذي وتجربة القوة والحصرية." },
+      { time: "[0:35 - 1:05]", instruction: "تغيير مبهر في العرض (Glitch to Luxury). اعرض قدرات MATRIX: هوية بصرية ملكية، فيديوهات لايف ستايل (Lifestyle B-roll) راقية للطيران الخاص، وأشكال الإعلانات الموجهة بدقة (LinkedIn Ads) للمسؤولين." },
+      { time: "[1:05 - 1:20]", instruction: "الشاشة الختامية الذهبية والسوداء. يجب أن تكون نبرة الصوت في التعليق هنا حاسمة وتدعوهم مباشرة للرد عبر الإيميل أو زيارة موقعنا." }
     ]
   },
   {
-    company: "Graft Architects",
+    company: "Dege & Skinner",
     timeline: [
-      { time: "[0:00 - 0:15]", instruction: "تسجيل موقع (graftlab.com). ادخل إلى قسم المشاريع (Projects List) وافتح أحد مشاريعهم المعمارية المذهلة. حرك الشاشة لإظهار الصور الجميلة. هنا التناقض: تصميم مذهل ولكن بصمت رقمي قاتم." },
-      { time: "[0:15 - 0:35]", instruction: "اشرح عبر مؤشر الماوس كيف أن المحتوى أشبه بكاتالوج أو PDF صامت بلا سرد للقصة وراء التصميم، ولا توجد أي أزرار أو نظام لاصطياد العميل المحتمل (Lead Capture)." },
-      { time: "[0:35 - 1:05]", instruction: "أثناء ذكر حزمة MATRIX في التعليق، استبدل الشاشة سريعاً بلقطة فيديو درامية بطيئة لتصميم معماري 3D متحرك، وتصميم إعلانات لينكد إن (B2B Ads) تستهدف أصحاب المشاريع العقارية الكبيرة، مما يفعل قمع المبيعات." },
-      { time: "[1:05 - 1:20]", instruction: "الختام بالشاشة ذات الهوية الراقية الخاصة بـ Optiline. يجب أن يترك انطباعاً بأن وكالتك هي الوحيدة القادرة على دمج فن العمارة بعلم المبيعات." }
+      { time: "[0:00 - 0:15]", instruction: "ابدأ بصور البدلات الكلاسيكية على حسابهم. التظليل المستمر للماوس على شكل المنشورات القديمة وطريقة العرض المتواضعة التي تخفق في جذب الجيل الشاب الحديث من أصحاب الثروات." },
+      { time: "[0:15 - 0:35]", instruction: "أظهر كيف يعتمدون بالكامل على 'التاريخ' بدون صياغة مسار إعلاني حديث. غياب مقاطع الـ (Reels) السريعة الفاخرة التي تبين سحر الحرفة." },
+      { time: "[0:35 - 1:05]", instruction: "تفعيل قوة حزمة NEXUS: عرض سريع لعلامة تجارية مجددة (Rebrand) تحافظ على التاريخ، مصحوبة بمقطاع فيديو عصرية ومونتاج أجنبي إيقاعي يجسد الخياطة الراقية وإعلانات السوشيال ميديا الدقيقة." },
+      { time: "[1:05 - 1:20]", instruction: "الختام الكلاسيكي الأنيق (Optiline_Outro)، يبرز أننا الوكالة التي ستعيد إحياء هويتهم المرئية وإعلاناتهم دون المساس بموقعهم البرمجي." }
     ]
   },
   {
-    company: "Satov Consultants",
+    company: "Handel Group",
     timeline: [
-      { time: "[0:00 - 0:15]", instruction: "تصوير موقع (satovconsultants.com). توجه إلى قسم (Our Work / Case Studies). قم بالتظليل السريع بالماوس (Highlight) على الكتل النصية والأبحاث والشكل الذي يبدو كمدونة جامدة ولا يثير حماس صانع القرار التنفيذي." },
-      { time: "[0:15 - 0:35]", instruction: "مرر الشاشة لأعلى ولأسفل لبيان عدم وجود محتوى فيديو تعريفي أو أدوات تفاعلية لاختصار المبيعات. ضعيب بصرية عامة باستخدام دائرة حمراء (Red Circle Graphic في المونتاج) لثانية واحدة لتأكيد النقطة." },
-      { time: "[0:35 - 1:05]", instruction: "انتقال سريع (Fast Cut) يوافق الإيقاع السريع للتحول في حزمة NEXUS. عرض أشكال (Sales Funnel Dashboards)، وإعلان مستهدف بشكل قوي (Hard-hitting B2B Ad) ومحتوى فيديو لرئيس تنفيذي يشرح الاستراتيجية." },
-      { time: "[1:05 - 1:20]", instruction: "انهاء المقطع بنزول الشعار الذهبي لـ Optiline على الخلفية السوداء. وتذكير حاسم بزيارة الموقع لاقتناص عرض الحل المخصص." }
+      { time: "[0:00 - 0:15]", instruction: "تصفح منصة (LindkedIn) الخاصة بالشركة أو موقعهم. قم بالتظليل الدقيق على 'الكتل النصية الضخمة' (Walls of Text). أظهر كم هي مملة للرئيس التنفيذي المشغول." },
+      { time: "[0:15 - 0:35]", instruction: "استخدم الفأرة لتسليط الضوء على المنشورات التي لا تحتوي على إنتاج فيديو احترافي، مؤكداً أن 'الخبراء الحقيقيين يخسرون الصدارة أمام مسوقين يمتلكون فيديو أفضل'." },
+      { time: "[0:35 - 1:05]", instruction: "قص سريع (Jump Cut) لحزمة CORE. عرض نماذج لفيديوهات التوجيه التنفيذي ذات الإضاءة السينمائية الخلفية (Dark mood lighting)، والهوية البصرية القيادية المفرطة في الفخامة التي ننتجها." },
+      { time: "[1:05 - 1:20]", instruction: "شاشة استقرار Optiline السوداء، مع كلمة (Reply directly...) تظهر مع نطق المعلق لها لتعزيز استجابة صانع القرار." }
     ]
   }
 ];
@@ -189,11 +189,11 @@ const sprintPlanHtml = `
           الأدلة المرئية "تسجيل الشاشة"
         </h3>
         <p class="text-xs text-optiline-gold font-english tracking-widest mb-4">TIME: 45 MIN</p>
-        <p class="text-sm text-gray-400 mb-3 block"><strong>الهدف:</strong> تصوير مواقع العملاء لتسليط الضوء على الخلل بناءً على توجيهات الإخراج المرئي.</p>
+        <p class="text-sm text-gray-400 mb-3 block"><strong>الهدف:</strong> تصوير مواقع وحسابات العملاء لتسليط الضوء على خلل الهوية بناءً على توجيهات الإخراج المرئي.</p>
         <ul class="list-decimal list-inside space-y-2 text-gray-300 font-arabic text-sm">
           <li>افتح الروابط الـ 6 من التقرير التنفيذي وجزّئ التبويبات بالمتصفح.</li>
           <li>شغّل أداة تسجيل الشاشة (Screenity أو OBS).</li>
-          <li>افتح موقع الشركة الأولى، ابدأ التسجيل لتصفح المشاكل والمواطن الجامدة (التزم بدليل الإخراج المرئي بدقة).</li>
+          <li>تذكر أن تركز على (الهوية، المحتوى، غياب الفيديو)، لا تتحدث عن تصميم أزرار الموقع برمجياً.</li>
           <li>أنهِ التسجيل واحفظه باسم 1_Waterfront_Video.mp4.</li>
           <li>كرر ذلك سريعاً للبقية. مدة كل تسجيل بحد أقصى 45 ثانية.</li>
         </ul>
@@ -248,7 +248,7 @@ const sprintPlanHtml = `
             </h3>
             <p class="text-sm text-gray-300 font-arabic mb-2">ضع الفيديوهات في مجلد، راجع البداية والنهاية، وارفعها على Google Drive أو Vimeo لروابط فاخرة بلا مشتتات.</p>
             <p class="text-base text-optiline-gold font-bold font-arabic leading-relaxed border-t border-optiline-gold/30 pt-3 mt-3">
-              نصيحة CRO: في غضون أقل من 3 ساعات ستجد أمامك 6 أصول رقمية شديدة التخصيص. تذكر أثناء الإرسال (سواء تواصلت عبر LinkedIn أو Email أو WhatsApp) أن تضع صورة مصغرة (Thumbnail) من داخل موقع العميل نفسه ليتم إقناعه بضرورة فتح الفيديو. بهذا النظام، نُفذت حملة اختراق فعّالة ومجانية 100%.
+              نصيحة CRO: استراتيجيتنا هنا لا تبيع "مواقع إلكترونية". تذكر خلال الإرسال التأكيد للعميل أننا نعمل على هويتهم المرئية، إنتاج الفيديو السينمائي، وهيكلة الإعلانات. ضع مصغرة (Thumbnail) من داخل حسابهم نفسه ليتم إقناعه بضرورة فتح الفيديو. بهذا النظام، نُفذت حملة اختراق فعّالة ومجانية 100%.
             </p>
           </div>
         </div>
@@ -256,7 +256,6 @@ const sprintPlanHtml = `
     </div>
   </div>
 `;
-
 
 // --- Logic & Rendering ---
 
@@ -274,8 +273,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="bg-optiline-gray border border-optiline-border hover:border-optiline-gold/50 transition-colors p-6 rounded-lg flex flex-col">
           <div class="flex justify-between items-start mb-4">
             <h3 class="text-xl font-english font-semibold text-white tracking-wide" dir="ltr">${item.company}</h3>
-            <span class="bg-optiline-gold/10 text-optiline-gold text-xs px-2 py-1 rounded-full font-english font-bold">
-              ${item.niche.split(' ')[0]}
+            <span class="bg-optiline-gold/10 text-optiline-gold text-xs px-2 py-1 rounded-full font-english font-bold flex-shrink-0 mr-2 text-center h-fit">
+              VIP
             </span>
           </div>
           <div class="space-y-2 mb-6 text-sm text-gray-400 font-english" dir="ltr">
@@ -296,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="space-y-4 text-right flex-1">
             <div>
-              <h4 class="text-optiline-gold text-sm font-bold mb-1">الخلل والتشخيص الفني</h4>
+              <h4 class="text-optiline-gold text-sm font-bold mb-1">خلل الهوية والمحتوى</h4>
               <p class="text-gray-300 text-sm leading-relaxed">${item.flaw}</p>
             </div>
             <div>
@@ -320,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let html = `
       <div class="bg-[#0f172a] border border-blue-500/30 text-blue-200 p-4 rounded-lg flex items-center gap-3 font-english text-sm max-w-4xl mb-8 fade-in mx-auto" dir="ltr">
         <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
-        <strong>STRICT GUIDELINE EXECUTED:</strong> Plain text, no bolding, strictly ~80 seconds (~160-180 words) per script. Deep logic applied. CTA redirects entirely to Email/Web.
+        <strong>STRICT GUIDELINE EXECUTED:</strong> Texts emphasize "NO WEB DEV - BRAND & CONTENT ONLY". Length strictly ~80 seconds (~170 words). CTA redirects entirely to Email/Web.
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 fade-in" dir="ltr">
     `;
@@ -346,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
       html += `
         <div class="bg-optiline-gray border border-optiline-border rounded-lg overflow-hidden flex flex-col">
           <div class="bg-black p-4 border-b border-optiline-border flex justify-between items-center" dir="ltr">
-            <h3 class="font-display font-bold text-lg text-white">${item.company} <span class="text-xs text-optiline-gold ml-2 tracking-widest">LIVE URL RECORDING</span></h3>
+            <h3 class="font-display font-bold text-lg text-white">${item.company}</h3>
             <div class="flex gap-2">
                <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
                <span class="w-3 h-3 rounded-full bg-yellow-500/80"></span>
