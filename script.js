@@ -6,7 +6,7 @@ const auditData = [
     location: "لندن، المملكة المتحدة",
     flaw: "التحليل البصري الدقيق: العيادة فاخرة جداً، لكن الهوية الرقمية متناثرة. خطوط وألوان السوشيال ميديا لا تتطابق مع فخامة العيادة (Brand Identity Gap). المحتوى يعتمد على صور جافة ولا يوجد رزنامة محتوى استراتيجية (Content Strategy). إعدادات الإعلانات لديهم تفتقر للهيكلة الصحيحة لاستهداف طبقة الأثرياء.",
     solution: "حزمة MATRIX ($1,799): تسليم نظام كامل في 21 يوم. يشمل: بناء هوية بصرية متكاملة (12 لون و6 خطوط)، 30 أصل محتوى (25 تصميم احترافي + 5 سكريبتات فيديوهات)، مع تجهيز متقدم لحملات إعلانية مزدوجة مع التتبع (Purchase Tracking). تصميم لمرة واحدة بدون عقود احتكارية (No Retainers).",
-    roi: "نظام دفع آمن 100% بالعملات الرقمية (Crypto). بمجرد استلام أصول الـ MATRIX الجاهزة، ستتحول واجهتهم الرقمية إلى صالة عرض فاخرة تغلق الصفقات الكبيرة ذاتياً، مما يعفيهم من رسوم الوكالات الإعلانية الشهرية الباهظة."
+    roi: "نظام تسليم أصول جاهزة بنسبة 100% بنطاق عمل ثابت (Fixed-Scope). بمجرد استلام أصول الـ MATRIX الجاهزة، ستتحول واجهتكم الرقمية إلى صالة عرض فاخرة تغلق الصفقات الكبيرة ذاتياً، مما يعفيكم تماماً من رسوم الوكالات الإعلانية الإدارية الشهرية الباهظة."
   },
   {
     company: "26 North Yachts",
@@ -51,15 +51,15 @@ const auditData = [
     location: "نيويورك، الولايات المتحدة",
     flaw: "التحليل البصري الدقيق: نصوص طويلة ومملة. لا يوجد دليل للون أو خطوط واضحة. يفتقرون للسكريبتات الفيديو العميقة (Video Scripts) التي تختصر أفكارهم. البيكسل وإعداد الحملات الإعلانية غير مصمم لاستهداف الشركات B2B بدقة عالية مما يهدر أموالهم.",
     solution: "حزمة MATRIX ($1,799): الهيمنة الاستشارية الرقمية. ملف تعريفي للهوية متكامل، 5 سكريبتات فيديوهات احترافية مدروسة + 25 تصميم معد للنشر. تجهيز كامل لاستراتيجية إعلانات تتضمن خريطة طريق للتوسع (Scaling Roadmap).",
-    roi: "المدراء يكرهون التعقيد ويبحثون عن التنفيذ القاطع (Just execution). Optiline تقدم لهم ترسانة الأصول الجاهزة عبر دفعة واحدة حصرية بالعملات الرقمية، لتختصر دورة المبيعات وتبرزهم كقادة للسوق بلا منازع."
+    roi: "المدراء يكرهون التعقيد ويبحثون عن التنفيذ القاطع (Just execution). Opti Line تقدم لهم ترسانة الأصول الجاهزة عبر دفعة واحدة حصرية بالعملات الرقمية، لتختصر دورة المبيعات وتبرزهم كقادة للسوق بلا منازع."
   }
 ];
 
 const scriptsData = [
   {
     company: "Waterhouse Young Clinic",
-    script: "Hi Waterhouse Young team. I’ve been analyzing your digital footprint across London, and there is a critical misalignment. Your aesthetic expertise is undoubtedly elite, but your current digital presence does not project that authority. Right now, your brand identity is fragmented, lacking the cohesive, high-end visual standard that ultra-high-net-worth patients expect. At Opti Line, we eliminate this gap. We don't rely on bloated monthly retainers; we execute with precision. We engineer a complete, premium visual ecosystem, produce conversion-focused content, and deploy a flawless ad infrastructure tailored to an affluent demographic. It is a definitive, fixed-scope solution to position you as the undeniable market leader. Stop letting inferior clinics win based merely on better digital perception. Let’s upgrade your digital authority today.",
-    arabicTranslation: "فريق ووترهاوس يونغ، لقد قمت بتحليل بصمتكم الرقمية في لندن، وهناك فجوة حرجة. خبرتكم التجميلية نخبوية بلا شك، لكن حضوركم الرقمي الحالي لا يعكس هذه السلطة. حالياً، هويتكم البصرية متناثرة وتفتقر للمستوى المرئي الفاخر والمتماسك الذي يتوقعه المرضى من كبار الأثرياء. في مؤسسة Opti Line، نحن نقضي على هذه الفجوة. نحن لا نعتمد على العقود الشهرية المرهقة؛ بل ننفذ بدقة متناهية. نحن نبني نظاماً مرئياً متكاملاً وفاخراً، وننتج محتوى يركز على التحويل المباشر، مع نشر بنية إعلانية لا تشوبها شائبة ومخصصة للطبقة الثرية. إنه حل نهائي ونطاق عمل ثابت لتضعوا أنفسكم كقادة لا منازع لهم في السوق. لا تدعوا العيادات الأقل مستوى تتفوق عليكم فقط بسبب إدراك رقمي أفضل. دعونا نرتقي بسلطتكم الرقمية اليوم."
+    script: "Hi Waterhouse Young team. I’ve been closely following your work in London, and while your clinical expertise is undeniably elite, there is a significant misalignment between your actual authority and your current digital footprint. Right now, your brand identity feels fragmented, lacking the cohesive, high-end visual standard that ultra-high-net-worth patients expect when seeking premier aesthetic care. While looking at your presence, I noticed specific areas where your visual ecosystem isn't fully reflecting the prestige of your clinic, which essentially creates a trust gap for your target demographic. At Opti Line, we eliminate this gap with surgical precision. We don't believe in bloated monthly retainers or endless management fees; instead, we engineer a complete, premium visual infrastructure and conversion-focused content designed to speak directly to an affluent audience. We provide a definitive, fixed-scope solution that deploys a flawless ad framework and a unified identity in a matter of days, ensuring your digital perception finally matches your real-world excellence. Stop letting inferior clinics win the market share simply because they have a more polished digital appearance. Your expertise is your greatest asset, and it deserves a digital presence that commands authority. Are you open to a brief conversation this week to see the exact roadmap we’ve mapped out for Waterhouse Young to become the undeniable market leader?",
+    arabicTranslation: "مرحباً فريق ووترهاوس يونغ. لقد كنت أتابع عملكم في لندن عن كثب، وبينما خبرتكم السريرية لا يعلى عليها، هناك سوء توافق كبير بين سلطتكم الحقيقية وبصمتكم الرقمية الحالية. في الوقت الحالي، تبدو هوية علامتكم التجارية متجزئة، وتفتقر إلى المعيار المرئي الفاخر والمتماسك الذي يتوقعه المرضى من ذوي الملاءة المالية العالية عند البحث عن رعاية تجميلية متميزة. أثناء اطلاعي على حضوركم، لاحظت مناطق محددة لا يعكس فيها نظامكم المرئي مكانة عيادتكم بشكل كامل، مما يخلق فجوة ثقة لدى جمهوركم المستهدف. في Opti Line، نقضي على هذه الفجوة بدقة جراحية. نحن لا نؤمن بالعقود الشهرية المرهقة أو رسوم الإدارة اللانهائية؛ بدلاً من ذلك، نصمم بنية تحتية مرئية متميزة ومحتوى يركز على التحويل مصمم لمخاطبة جمهور ثري بشكل مباشر. نحن نقدم حلاً نهائياً ثابتاً ينشر إطار عمل إعلاني لا تشوبه شائبة وهوية موحدة في غضون أيام، مما يضمن أن تصوركم الرقمي يتناسب أخيراً مع تميزكم في العالم الحقيقي. توقفوا عن ترك العيادات الأقل مستوى تفوز بحصة السوق لمجرد أنها تمتلك مظهراً رقمياً أكثر صقلاً. خبرتكم هي أعظم أصولكم، وتستحق حضوراً رقمياً يفرض سلطته. هل أنتم مستعدون لمحادثة قصيرة هذا الأسبوع للاطلاع على خارطة الطريق الدقيقة التي أعددناها لـ ووترهاوس يونغ لتصبح الرائدة في السوق بلا منازع؟"
   },
   {
     company: "26 North Yachts",
@@ -93,9 +93,9 @@ const visualGuidesData = [
     company: "Waterhouse Young Clinic",
     timeline: [
       { time: "[0:00 - 0:15]", instruction: "تصفح حساب العيادة على انستغرام أو الموقع. مرر الفأرة على الألوان والخطوط غير المتناسقة. استخدم أداة رسم دائرة لتبين غياب (Brand Guidelines) الواضحة التي تعتبر أساسية لأي ماركة فاخرة." },
-      { time: "[0:15 - 0:35]", instruction: "ادخل إلى مكتبة الإعلانات أو أرشيف الصور، وأشر إلى الكتل النصية والألوان البسيطة. اذكر أن وكالة Optiline تقدم باقة MATRIX لتبني (Content Strategy) حقيقية وإعداد احترافي للإعلانات." },
-      { time: "[0:35 - 1:05]", instruction: "انتقال إلى صفحة أسعار وكالة Optiline (أو قسم باقة MATRIX). أبرز بوضوح ميزات: 30 أصول محتوى، إعداد إعلانات متقدم، والدفع الحصري بالكريبتو (Crypto-Exclusive) بدون احتكار شهري." },
-      { time: "[1:05 - 1:20]", instruction: "شاشة ختامية احترافية باسم Optiline تظهر عبارة (Fixed-Scope Execution) وتدعوهم للرد المباشر." }
+      { time: "[0:15 - 0:35]", instruction: "ادخل إلى مكتبة الإعلانات أو أرشيف الصور، وأشر إلى الكتل النصية والألوان البسيطة. اذكر أن وكالة Opti Line تقدم باقة MATRIX لتبني (Content Strategy) حقيقية وإعداد احترافي للإعلانات." },
+      { time: "[0:35 - 1:05]", instruction: "انتقال إلى صفحة أسعار وكالة Opti Line (أو قسم باقة MATRIX). أبرز بوضوح ميزات: 30 أصول محتوى، إعداد إعلانات متقدم، ونظام التسليم الثابت (Fixed-Scope) بدون احتكار شهري." },
+      { time: "[1:05 - 1:20]", instruction: "شاشة ختامية احترافية باسم Opti Line تظهر عبارة (Fixed-Scope Execution) وتدعوهم للرد المباشر لطلب خارطة الطريق." }
     ]
   },
   {
@@ -103,7 +103,7 @@ const visualGuidesData = [
     timeline: [
       { time: "[0:00 - 0:15]", instruction: "ابدأ بتسجيل حسابات السوشيال لدى وساطة اليخوت. سلط الضوء على التصميم العشوائي للمنشورات بمرور الماوس السريع، للإشارة لغياب قوالب الهوية المؤسسية (Social Templates)." },
       { time: "[0:15 - 0:35]", instruction: "أثناء الحديث عن غياب إعدادات الإعلانات، قم بمحاكاة كود البيكسل المفقود أو عدم وجود إعلانات نشطة في مكتبة فيسبوك توحي بغياب استراتيجية إعادة الاستهداف (Retargeting)." },
-      { time: "[0:35 - 1:05]", instruction: "انتقال مباشر لعرض جدول أسعار Optiline، والتركيز على حزمة (NEXUS Pack $1,399). الإشارة بالماوس إلى تسليم 12 منشور وإعداد الإعلانات المزدوجة." },
+      { time: "[0:35 - 1:05]", instruction: "انتقال مباشر لعرض جدول أسعار Opti Line، والتركيز على حزمة (NEXUS Pack $1,399). الإشارة بالماوس إلى تسليم 12 منشور وإعداد الإعلانات المزدوجة." },
       { time: "[1:05 - 1:20]", instruction: "الشاشة السوداء الختامية. رسالة تحث على الرد لبرمجة جلسة أو استلام الأصول عبر بوابات الـ Crypto." }
     ]
   },
@@ -113,7 +113,7 @@ const visualGuidesData = [
       { time: "[0:00 - 0:15]", instruction: "استعرض صور مشاريع التصميم. التناقض: صور بملايين الجنيهات، لكن منشورة بنصوص (Captions) قصيرة وفقيرة بلا (Tone of Voice) أو دعوات اتخاذ إجراء (CTAs)." },
       { time: "[0:15 - 0:35]", instruction: "استخدم مؤشر الماوس لتوضيح أن الموقع لا يبدو مهيئاً بحملات إعلانية احترافية، وأنهم يعتمدون فقط على الانتظار (Passive Discovery)." },
       { time: "[0:35 - 1:05]", instruction: "انتقال وعرض باقة (CORE Pack $799). إبراز التسليم السريع (7-10 Days)، وأن النظام مبني على تسليم أصول الهوية بالكامل بدون أي تعقيدات وبدفع رقمي لا محدود." },
-      { time: "[1:05 - 1:20]", instruction: "ثبات الشاشة على شعار وكالة Optiline ودعوة حصرية للاستفادة من الباقة التأسيسية." }
+      { time: "[1:05 - 1:20]", instruction: "ثبات الشاشة على شعار وكالة Opti Line ودعوة حصرية للاستفادة من الباقة التأسيسية." }
     ]
   },
   {
@@ -131,7 +131,7 @@ const visualGuidesData = [
       { time: "[0:00 - 0:15]", instruction: "أظهر الانستغرام القديم. مرر الفأرة لإظهار كيف أن التمسك بالتراث بدون تحديث بصري (Color System & Typography) يفقدهم جيل الأثرياء الحديث." },
       { time: "[0:15 - 0:35]", instruction: "ركز على غياب المحتوى السريع وقوالب الإعلانات. أثناء قراءة (Bridging the generational gap)، أظهر كيف يحتاجون لترقية عاجلة." },
       { time: "[0:35 - 1:05]", instruction: "ركز الشرح المرئي على حزمة (NEXUS) وتسليم 12 بوست جاهز مع ضبط إعلانات إعادة الاستهداف، مؤكداً رفضنا للاحتكار الشهري (No Retainers)." },
-      { time: "[1:05 - 1:20]", instruction: "شاشة ختامية لـ Optiline، نص صريح بتشجيعهم على اعتماد النقلة الرقمية بشكل مشفر وحديث." }
+      { time: "[1:05 - 1:20]", instruction: "شاشة ختامية لـ Opti Line، نص صريح بتشجيعهم على اعتماد النقلة الرقمية بشكل مشفر وحديث." }
     ]
   },
   {
@@ -139,7 +139,7 @@ const visualGuidesData = [
     timeline: [
       { time: "[0:00 - 0:15]", instruction: "استعرض موقع الشركة وملفهم في LinkedIn. الإشارة بقوة وبطء إلى بحر النصوص الطويلة المملة (Huge text blocks) التي لا يملك أي CEO وقتاً لقراءتها." },
       { time: "[0:15 - 0:35]", instruction: "تظليل جزء 'الفيديو والتصميم' الغائب. أشر إلى الحاجة الملحة لوجود (Brand Guidelines) تمنع هذا التشتت المرئي، وتجهيز الإعلانات لاستهداف الأعمال B2B." },
-      { time: "[0:35 - 1:05]", instruction: "قص سريع (Jump Cut) لعرض باقة الـ MATRIX من Optiline. التركيز على ميزة السكريبتات الجاهزة (5 Video Scripts) لبناء قيادة فكرية مقنعة." },
+      { time: "[0:35 - 1:05]", instruction: "قص سريع (Jump Cut) لعرض باقة الـ MATRIX من Opti Line. التركيز على ميزة السكريبتات الجاهزة (5 Video Scripts) لبناء قيادة فكرية مقنعة." },
       { time: "[1:05 - 1:20]", instruction: "شاشة الاستقرار السوداء النهائية لوكالتك، مع تثبيت نص (100% Crypto-Exclusive) لتصفية العملاء وتعزيز القيمة الفاخرة." }
     ]
   }
@@ -148,12 +148,12 @@ const visualGuidesData = [
 const outreachData = [
   {
     company: "Waterhouse Young Clinic",
-    englishMessage: "Subject: Missing visual assets for UHNW London patients\n\nHi [Name],\n\nI recorded a custom video audit of your current digital setup. Your aesthetic expertise at Waterhouse Young is clearly elite, but your external brand identity and social assets are presenting as overly clinical, causing you to blend in. \n\nWe operate differently—no monthly retainers. We deliver fixed-scope growth assets using a seamless crypto-exclusive gateway. I broke down exactly how a complete brand asset overhaul and structured ad campaign setup can capture high-net-worth patients who are currently booking elsewhere based purely on visual perception.\n\nWatch the 80-second breakdown here: [Video Link]\n\nLet me know your thoughts.",
-    arabicTranslation: "الموضوع: غياب الأصول المرئية لمرضى لندن من كبار الأثرياء\n\nمرحباً [الاسم]،\n\nلقد قمت بتسجيل مراجعة فيديو مخصصة للإعداد الرقمي الحالي لديكم. خبرتكم لا غبار عليها، لكن هويتكم المرئية الخارجية تبدو طبية بشكل مفرط مما يفقدكم التميز.\n\nنحن نعمل بشكل مختلف—لا احتكار شهري. نقوم بتسليم أصول نمو ثابتة النطاق عبر بوابات دفع كريبتو حصرية. لقد قمت بشرح كيف أن الترقية الشاملة للهوية وتجهيز الإعلانات ستقنص المرضى الذين يتجهون لعيادات أخرى بناءً على الانطباع البصري فقط.\n\nشاهد التحليل القصير هنا: [رابط الفيديو]\n\nأخبرني برأيك."
+    englishMessage: "Subject: Missing visual assets for UHNW London patients\n\nHi [Name],\n\nI’ve been closely following Waterhouse Young and recorded a custom video audit of your current digital setup. Your clinical expertise is clearly elite, but there is a significant misalignment with your external brand identity, creating a trust gap for high-net-worth patients.\n\nWe operate differently—no monthly retainers. We deliver a complete, premium visual infrastructure and conversion-focused content designed to speak directly to your target demographic. I broke down exactly how a fixed-scope roadmap can ensure your digital perception matches your real-world excellence.\n\nWatch the 80-second breakdown here: [Video Link]\n\nAre you open to a brief conversation this week to see the exact roadmap we’ve mapped out for you?",
+    arabicTranslation: "الموضوع: غياب الأصول المرئية لمرضى لندن من كبار الأثرياء\n\nمرحباً [الاسم]،\n\nلقد كنت أتابع ووترهاوس يونغ عن كثب وسجلت فيديو مخصصاً لمراجعة إعدادكم الرقمي الحالي. خبرتكم السريرية نخبوية، ولكن هناك سوء توافق في هويتكم الخارجية يخلق فجوة ثقة لدى المرضى من ذوي الملاءة المالية العالية.\n\nنحن نعمل بشكل مختلف—لا عقود شهرية. نحن نسلم بنية تحتية مرئية متميزة ومحتوى يركز على التحويل مصمم لمخاطبة جمهوركم المستهدف. لقد وضحت كيف يمكن لخارطة طريق ثابتة النطاق أن تضمن تطابق تصوركم الرقمي مع تميزكم الحقيقي.\n\nشاهد التحليل لمدة 80 ثانية هنا: [رابط الفيديو]\n\nهل أنتم مستعدون لمحادثة قصيرة هذا الأسبوع للاطلاع على خارطة الطريق التي رسمناها لكم؟"
   },
   {
     company: "26 North Yachts",
-    englishMessage: "Subject: Brand authority gap in your yacht brokerage funnel\n\nHi [Name],\n\nI recorded a quick, custom video detailing a significant leak I found in your digital strategy. Your yacht inventory is world-class, but the brand authority assets for your brokers are severely under-represented.\n\nAt Optiline, we bypass messy retainer models and deliver strict, fixed-scope asset bundles via secure crypto-payments. I mapped out exactly how setting up dedicated social templates, ready-content, and targeted ad funnels can isolate you from standard brokerages immediately.\n\nWatch it here: [Video Link]\n\nReply and let me know if taking ownership of these assets aligns with your targets.",
+    englishMessage: "Subject: Brand authority gap in your yacht brokerage funnel\n\nHi [Name],\n\nI recorded a quick, custom video detailing a significant leak I found in your digital strategy. Your yacht inventory is world-class, but the brand authority assets for your brokers are severely under-represented.\n\nAt Opti Line, we bypass messy retainer models and deliver strict, fixed-scope asset bundles via secure crypto-payments. I mapped out exactly how setting up dedicated social templates, ready-content, and targeted ad funnels can isolate you from standard brokerages immediately.\n\nWatch it here: [Video Link]\n\nReply and let me know if taking ownership of these assets aligns with your targets.",
     arabicTranslation: "الموضوع: فجوة السلطة المرئية في قمع وساطة اليخوت الخاص بكم\n\nمرحباً [الاسم]،\n\nسجلت فيديو مخصص وسريع يفصل مشكلة ضخمة في استراتيجيتكم. يخوتكم عالمية، لكن أصول الهوية الشخصية لوكلائكم غائبة.\n\nفي أوبتيلاين، لا نعمل بنظام الاحتكار الشهري المعقد، بل نسلم حزم أصول ثابتة ومدفوعة بالعملات الرقمية المشفرة. قمت بشرح كيف سيفصلكم بناء قوالب ومحتوى جاهز وإعداد قمع إعلاني عن الوكالات العادية فوراً.\n\nشاهده هنا: [رابط الفيديو]\n\nأخبرني إذا كان امتلاك هذه المنظومة يتوافق مع أهدافك."
   },
   {
@@ -163,7 +163,7 @@ const outreachData = [
   },
   {
     company: "Stratos Jet Charters",
-    englishMessage: "Subject: Missing growth ecosystem for exclusive members\n\nHi [Name],\n\nI analyzed your digital footprint and recorded a custom video regarding a crucial visual error. Your private aviation service is exceptional, but your brand assets and ad setup mirror a standard booking agency.\n\nOptiline specializes in fixed-scope delivery rather than ongoing agency relationships, running on an agile crypto-invoicing system. I break down exactly how handing your team 30 elite conversion assets and robust ad scale configurations will put you directly in front of corporate decision-makers.\n\nWatch the private video here: [Video Link]\n\nLooking forward to your thoughts.",
+    englishMessage: "Subject: Missing growth ecosystem for exclusive members\n\nHi [Name],\n\nI analyzed your digital footprint and recorded a custom video regarding a crucial visual error. Your private aviation service is exceptional, but your brand assets and ad setup mirror a standard booking agency.\n\nOpti Line specializes in fixed-scope delivery rather than ongoing agency relationships, running on an agile crypto-invoicing system. I break down exactly how handing your team 30 elite conversion assets and robust ad scale configurations will put you directly in front of corporate decision-makers.\n\nWatch the private video here: [Video Link]\n\nLooking forward to your thoughts.",
     arabicTranslation: "الموضوع: غياب منصة نمو للأعضاء الحصريين\n\nمرحباً [الاسم]،\n\nقمت بتحليل بصمتكم وسجلت فيديو بخصوص خطأ بصري حساس. طيرانكم الطائر متميز، لكن أصول علامتكم وإعدادكم للإعلانات يبدو كوكالة عادية.\n\nتختص وكالتنا بالتسليم الثابت للأصول بدلاً من العقود الشهرية بمرونة التعامل الرقمي المشفر. أشرح كيف أن تسليم فريقكم 30 أصل محتوى احترافي وإعداد إعداد إعلانات متقدم سيضعكم أمام صناع القرار مباشرة.\n\nشاهد الفيديو هنا: [رابط الفيديو]\n\nأتطلع لأفكارك."
   },
   {
@@ -183,7 +183,7 @@ const sprintPlanHtml = `
     <div class="absolute top-0 right-0 w-2 h-full bg-optiline-gold"></div>
     <div class="mb-8 border-b border-gray-800 pb-6 text-center md:text-right">
       <h2 class="text-3xl font-display font-bold text-optiline-gold mb-4">خريطة طريق الدقائق الـ 180 (The 3-Hour Sprint)</h2>
-      <p class="text-gray-300 leading-relaxed font-arabic text-lg">بصفتي مخرج محتوى، يمكنني تأكيد أن إنتاج 6 فيديوهات عالية الجودة لعملاء الـ High-Ticket في 3 ساعات (180 دقيقة) هو أمر ممكن تماماً بأسلوب "خط التجميع". ركز على عرض قيمة باقاتك: تسليم أصول رقمية بلا احتكار والدفع عبر الكريبتو.</p>
+      <p class="text-gray-300 leading-relaxed font-arabic text-lg">بصفتي مخرج محتوى، يمكنني تأكيد أن إنتاج 6 فيديوهات عالية الجودة لعملاء الـ High-Ticket في 3 ساعات (180 دقيقة) هو أمر ممكن تماماً بأسلوب "خط التجميع". ركز على عرض قيمة باقاتك: تسليم أصول رقمية بلا احتكار ونظام التسليم الثابت (Fixed-Scope).</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 dir-rtl text-right">
@@ -197,7 +197,7 @@ const sprintPlanHtml = `
         <ul class="space-y-3 text-gray-300 font-arabic grid grid-cols-1 md:grid-cols-2 gap-4">
           <li class="bg-optiline-gray p-3 rounded border border-gray-800"><span class="text-optiline-gold font-bold">1. مصنع الصوت (25 دقيقة):</span> عبر موقع TTSMaker. استخدام الأصوات الجادة واستخراج 6 ملفات MP3.</li>
           <li class="bg-optiline-gray p-3 rounded border border-gray-800"><span class="text-optiline-gold font-bold">2. دليل الأدلة المرئية (45 دقيقة):</span> تصوير فيديو للشاشة (Screenity/OBS) لاستعراض هويتهم المفككة وضعف المحتوى.</li>
-          <li class="bg-optiline-gray p-3 rounded border border-gray-800"><span class="text-optiline-gold font-bold">3. الشاشة الختامية (20 دقيقة):</span> صورة من موقع Canva، تحمل اللوغو للوكالة وكلمة (Fixed Scope / Crypto Exclusive).</li>
+          <li class="bg-optiline-gray p-3 rounded border border-gray-800"><span class="text-optiline-gold font-bold">3. الشاشة الختامية (20 دقيقة):</span> صورة من موقع Canva، تحمل اللوغو للوكالة وكلمة (Fixed-Scope Execution / Premium Assets).</li>
           <li class="bg-optiline-gray p-3 rounded border border-gray-800"><span class="text-optiline-gold font-bold">4. خط التجميع النهائي (75 دقيقة):</span> دمج الصور بنظام الدفعات (Batch) عبر تطبيق CapCut ووضع كابشن ذهبي.</li>
         </ul>
       </div>
