@@ -4,6 +4,7 @@ const dailyTargets = [
     company: "Burgess Yachts",
     url: "burgessyachts.com",
     socialUrl: "instagram.com/burgessyachts",
+    targetEmail: "marketing@burgessyachts.com",
     niche: "وساطة وتأجير اليخوت الفاخرة",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -18,6 +19,7 @@ const dailyTargets = [
     company: "Savills (Prime Central London)",
     url: "savills.co.uk",
     socialUrl: "instagram.com/savills",
+    targetEmail: "pressoffice@savills.com",
     niche: "عقارات النخبة",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -32,6 +34,7 @@ const dailyTargets = [
     company: "The Ned",
     url: "thened.com",
     socialUrl: "instagram.com/thenedlondon",
+    targetEmail: "communications@thened.com",
     niche: "فندق ونادي أعضاء خاص",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -46,6 +49,7 @@ const dailyTargets = [
     company: "Ten Lifestyle Group",
     url: "tengroup.com",
     socialUrl: "instagram.com/tenconcierge",
+    targetEmail: "communications@tengroup.com",
     niche: "خدمات كونسيرج للأعمال",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -60,6 +64,7 @@ const dailyTargets = [
     company: "Dr. Barbara Sturm",
     url: "drsturm.com",
     socialUrl: "instagram.com/drbarbarasturm",
+    targetEmail: "pr@drsturm.com",
     niche: "العناية بالبشرة للطبقة المخملية",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -74,6 +79,7 @@ const dailyTargets = [
     company: "Victor Jets",
     url: "flyvictor.com",
     socialUrl: "instagram.com/flyvictor",
+    targetEmail: "marketing@flyvictor.com",
     niche: "تأجير الطائرات الخاصة",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -88,6 +94,7 @@ const dailyTargets = [
     company: "Cadogan Clinic",
     url: "cadoganclinic.com",
     socialUrl: "instagram.com/cadoganclinic",
+    targetEmail: "enquiries@cadoganclinic.com",
     niche: "جراحات تجميل من النخبة",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -102,6 +109,7 @@ const dailyTargets = [
     company: "Rosewood London",
     url: "rosewoodhotels.com",
     socialUrl: "instagram.com/rosewoodlondon",
+    targetEmail: "london.communications@rosewoodhotels.com",
     niche: "فندق فخم جداً",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -116,6 +124,7 @@ const dailyTargets = [
     company: "Cliveden House",
     url: "clivedenhouse.co.uk",
     socialUrl: "instagram.com/clivedenhouse",
+    targetEmail: "marketing@clivedenhouse.co.uk",
     niche: "وجهة ريفية أرستقراطية فاخرة",
     location: "لندن (الضواحي)، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -130,6 +139,7 @@ const dailyTargets = [
     company: "Cheval Collection",
     url: "chevalcollection.com",
     socialUrl: "instagram.com/chevalcollection",
+    targetEmail: "marketing@chevalcollection.com",
     niche: "شقق فندقية للنخبة والسفراء",
     location: "لندن، المملكة المتحدة",
     sendTimeLocal: "11:00 AM",
@@ -145,6 +155,7 @@ const dailyTargets = [
     company: "mph club",
     url: "mphclub.com",
     socialUrl: "instagram.com/mphclub",
+    targetEmail: "media@mphclub.com",
     niche: "تأجير السيارات الفارهة",
     location: "ميامي، الولايات المتحدة",
     sendTimeLocal: "4:00 PM",
@@ -159,6 +170,7 @@ const dailyTargets = [
     company: "Corcoran Sunshine",
     url: "corcoransunshine.com",
     socialUrl: "instagram.com/corcoransunshine",
+    targetEmail: "info@corcoransunshine.com",
     niche: "مشاريع العقارات الفاخرة",
     location: "نيويورك، الولايات المتحدة",
     sendTimeLocal: "4:00 PM",
@@ -173,6 +185,7 @@ const dailyTargets = [
     company: "Ritz-Carlton Yacht Collection",
     url: "ritzcarltonyachtcollection.com",
     socialUrl: "instagram.com/ritzcarltonyachtcollection",
+    targetEmail: "publicrelations@ritzcarltonyachtcollection.com",
     niche: "الرحلات البحرية فائقة الفخامة",
     location: "فلوريدا، الولايات المتحدة",
     sendTimeLocal: "4:00 PM",
@@ -187,6 +200,7 @@ const dailyTargets = [
     company: "Sentient Jet",
     url: "sentient.com",
     socialUrl: "instagram.com/sentientjet",
+    targetEmail: "press@sentient.com",
     niche: "بطاقات الطيران الخاص",
     location: "ماساتشوستس، الولايات المتحدة",
     sendTimeLocal: "4:00 PM",
@@ -202,6 +216,7 @@ const dailyTargets = [
     company: "Exclusive Resorts",
     url: "exclusiveresorts.com",
     socialUrl: "instagram.com/exclusiveresorts",
+    targetEmail: "press@exclusiveresorts.com",
     niche: "نادي إجازات ومنتجعات حصرية",
     location: "دنفر، الولايات المتحدة",
     sendTimeLocal: "6:00 PM",
@@ -217,6 +232,7 @@ const dailyTargets = [
     company: "The Agency",
     url: "theagencyre.com",
     socialUrl: "instagram.com/theagencyre",
+    targetEmail: "pr@theagencyre.com",
     niche: "وساطة العقارات الفاخرة",
     location: "كاليفورنيا، الولايات المتحدة",
     sendTimeLocal: "7:00 PM",
@@ -231,6 +247,7 @@ const dailyTargets = [
     company: "Beverly Hills MD",
     url: "beverlyhillsmd.com",
     socialUrl: "instagram.com/beverlyhillsmd",
+    targetEmail: "support@beverlyhillsmd.com",
     niche: "عيادة تجميل وعناية بالبشرة",
     location: "بيفرلي هيلز، الولايات المتحدة",
     sendTimeLocal: "7:00 PM",
@@ -245,6 +262,7 @@ const dailyTargets = [
     company: "Silver Air Private Jets",
     url: "silverair.com",
     socialUrl: "instagram.com/silverairprivatejets",
+    targetEmail: "info@silverair.com",
     niche: "تأجير وإدارة الطائرات الخاصة",
     location: "كاليفورنيا، الولايات المتحدة",
     sendTimeLocal: "7:00 PM",
@@ -259,6 +277,7 @@ const dailyTargets = [
     company: "The Private Suite (PS)",
     url: "reserveps.com",
     socialUrl: "instagram.com/reserveps",
+    targetEmail: "press@reserveps.com",
     niche: "محطات سفر فاخرة بالمطارات",
     location: "لوس أنجلوس، الولايات المتحدة",
     sendTimeLocal: "7:00 PM",
@@ -273,6 +292,7 @@ const dailyTargets = [
     company: "O'Gara Coach",
     url: "ogaracoach.com",
     socialUrl: "instagram.com/ogaracoach",
+    targetEmail: "marketing@ogaracoach.com",
     niche: "وكالة سيارات فائقة الفخامة",
     location: "بيفرلي هيلز، الولايات المتحدة",
     sendTimeLocal: "7:00 PM",
@@ -426,6 +446,17 @@ document.addEventListener('DOMContentLoaded', () => {
                  <i data-lucide="clock" class="w-3.5 h-3.5"></i>
                  <span>وقت الإرسال (GMT+3): ${item.sendTimeLocal}</span>
              </div>
+          </div>
+
+          <!-- Target Email Display Bar -->
+          <div class="px-4 md:px-6 py-3 border-b border-gray-800/80 bg-black/40 flex justify-between items-center" dir="ltr">
+             <div class="flex items-center gap-2 text-gray-300 font-english text-xs md:text-sm">
+                <i data-lucide="at-sign" class="w-3.5 h-3.5 text-blue-400"></i>
+                <span class="email-target font-medium">${item.targetEmail}</span>
+             </div>
+             <button class="text-[10px] font-english text-blue-400 hover:text-white bg-blue-500/10 hover:bg-blue-500/30 px-3 py-1.5 rounded transition flex items-center justify-center gap-1.5 copy-btn border border-blue-500/20 shadow-sm" data-copy="email">
+                <i data-lucide="copy" class="w-3 h-3"></i> <span>Copy Email</span>
+             </button>
           </div>
           
           <div class="p-4 md:p-6 flex-1 flex flex-col gap-4 text-right" dir="rtl">
