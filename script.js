@@ -10,10 +10,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "يعتمدون على صور اليخوت فقط دون وجود قوالب احترافية (Brand Framework) ترسخ هيمنتهم الإعلانية.",
     emailSubject: "Elevating the digital authority of your yacht portfolio",
-    emailBody: "Hi [Name],\n\nBurgess sets the global standard for superyachts, but your digital and social presence currently relies entirely on raw photography without a cohesive, branded marketing framework to drive charters.\n\nOPTILINE operates on one principle: rapid fixed execution with no monthly retainers. We build and hand over a definitive brand identity system, conversion-focused content assets, and an advanced ad structure tailored specifically for ultra-high-net-worth acquisition.\n\nAre you open to a brief chat this week to discuss bridging this digital gap?",
+    emailBody: "Hi Burgess Marketing Team,\n\nBurgess sets the global standard for superyachts, but your digital and social presence currently relies entirely on raw photography without a cohesive, branded marketing framework to drive charters.\n\nOPTILINE operates on one principle: rapid fixed execution with no monthly retainers. We build and hand over a definitive brand identity system, conversion-focused content assets, and an advanced ad structure tailored specifically for ultra-high-net-worth acquisition.\n\nAre you open to a brief chat this week to discuss bridging this digital gap?",
     arabicNote: "ركزنا على مشكلة 'الاعتماد على الصور الخام' وغياب الاستراتيجية.",
     followUpSubject: "Re: Elevating the digital authority of your yacht portfolio",
-    followUpBody: "Hi [Name],\n\nJust bumping this up. I know you are busy, but bringing a strictly branded acquisition framework to your yacht social channels will significantly boost charter inquiries.\n\nAre you open to a quick 5-minute chat this week?"
+    followUpBody: "Hi Burgess Marketing Team,\n\nJust bumping this up. I know you are busy, but bringing a strictly branded acquisition framework to your yacht social channels will significantly boost charter inquiries.\n\nAre you open to a quick 5-minute chat this week?"
   },
   {
     company: "Savills (Prime Central London)",
@@ -25,10 +25,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "المحتوى الرقمي الخاص بهم قديم وممل ولا يناسب الجيل الجديد من الأثرياء الذين يطلبون محتوى ديناميكي.",
     emailSubject: "Securing modern wealth buyers in Prime London",
-    emailBody: "Hi [Name],\n\nSavills has an incredible legacy in Prime London, but your current social content strategy feels slightly disconnected from the modern wealth demographic. Your properties demand an aggressive, highly polished visual ecosystem.\n\nOPTILINE delivers exactly that without the burden of ongoing retainers. We provide rapid fixed execution. We will modernize your visual brand identity, deliver a suite of high-converting luxury content, and structure a precise ad framework to capture international investors seamlessly.\n\nWould you be open to a short conversation this week to review our approach?",
+    emailBody: "Hi Savills Press Office,\n\nSavills has an incredible legacy in Prime London, but your current social content strategy feels slightly disconnected from the modern wealth demographic. Your properties demand an aggressive, highly polished visual ecosystem.\n\nOPTILINE delivers exactly that without the burden of ongoing retainers. We provide rapid fixed execution. We will modernize your visual brand identity, deliver a suite of high-converting luxury content, and structure a precise ad framework to capture international investors seamlessly.\n\nWould you be open to a short conversation this week to review our approach?",
     arabicNote: "الجيل الجديد من الأثرياء يحتاج لفيديو وحركة وتصميم لامع، وهذه مشكلة سافيلز.",
     followUpSubject: "Re: Securing modern wealth buyers in Prime London",
-    followUpBody: "Hi [Name],\n\nFollowing up on my previous note. To consistently capture the modern wealth demographic, Savills needs a sharper visual edge right now.\n\nDo you have 5 minutes this Thursday for a quick breakdown?"
+    followUpBody: "Hi Savills Press Office,\n\nFollowing up on my previous note. To consistently capture the modern wealth demographic, Savills needs a sharper visual edge right now.\n\nDo you have 5 minutes this Thursday for a quick breakdown?"
   },
   {
     company: "The Ned",
@@ -40,10 +40,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "يفقدون فرصة السيطرة على إعلانات النخبة وتحويل المتابعين إلى 'أعضاء' عبر المحتوى.",
     emailSubject: "Driving exclusive membership acquisition",
-    emailBody: "Hi [Name],\n\nThe Ned remains one of the most significant clubs in London, but your digital presence shows an underutilized acquisition engine. Your Instagram is beautiful, but the strategic ad funnels required to actively pull in the next generation of business leaders are lacking.\n\nAt OPTILINE, we only do fixed-scope delivery—no retainers. We refine your digital brand assets, supply high-impact membership content packs, and execute a flawless ad launchpad aimed entirely at high-net-worth professionals.\n\nLet us connect briefly this week to discuss how we can engineer this for you.",
+    emailBody: "Hi The Ned Communications Team,\n\nThe Ned remains one of the most significant clubs in London, but your digital presence shows an underutilized acquisition engine. Your Instagram is beautiful, but the strategic ad funnels required to actively pull in the next generation of business leaders are lacking.\n\nAt OPTILINE, we only do fixed-scope delivery—no retainers. We refine your digital brand assets, supply high-impact membership content packs, and execute a flawless ad launchpad aimed entirely at high-net-worth professionals.\n\nLet us connect briefly this week to discuss how we can engineer this for you.",
     arabicNote: "لديهم ملايين المتابعين لكنهم لا يحولونهم إلى مبيعات عبر 'مسارات البيع الذكية'.",
     followUpSubject: "Re: Driving exclusive membership acquisition",
-    followUpBody: "Hi [Name],\n\nFloating this to the top of your inbox. The Ned is leaving executive memberships on the table by not deploying targeted, conversion-focused paid social structures.\n\nAre you available for a brief call to see how we bypass the retainer model to fix this?"
+    followUpBody: "Hi The Ned Communications Team,\n\nFloating this to the top of your inbox. The Ned is leaving executive memberships on the table by not deploying targeted, conversion-focused paid social structures.\n\nAre you available for a brief call to see how we bypass the retainer model to fix this?"
   },
   {
     company: "Ten Lifestyle Group",
@@ -55,10 +55,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "خطابهم الرقمي جاف جداً ويشبه البنوك، غياب تام لجاذبية 'أسلوب الحياة الراقي'.",
     emailSubject: "Realigning your B2B concierge digital strategy",
-    emailBody: "Hi [Name],\n\nTen Lifestyle Group offers unmatched global concierge capabilities, yet your current digital strategy feels overly corporate. Your social presence lacks the dynamic visual authority required to instantly convert elite B2B prospects.\n\nAt OPTILINE, we intervene by delivering high-end digital clarity, entirely bypassing the retainer model. We architect a highly persuasive visual brand identity, create razor-sharp sales content, and engineer precise B2B ad formats meant to capture top executives effortlessly.\n\nAre you open to a brief chat this week to review our execution plan?",
+    emailBody: "Hi Ten Group Communications,\n\nTen Lifestyle Group offers unmatched global concierge capabilities, yet your current digital strategy feels overly corporate. Your social presence lacks the dynamic visual authority required to instantly convert elite B2B prospects.\n\nAt OPTILINE, we intervene by delivering high-end digital clarity, entirely bypassing the retainer model. We architect a highly persuasive visual brand identity, create razor-sharp sales content, and engineer precise B2B ad formats meant to capture top executives effortlessly.\n\nAre you open to a brief chat this week to review our execution plan?",
     arabicNote: "اللمسة العصرية مفقودة عندهم تماماً في بحر من الرسميات.",
     followUpSubject: "Re: Realigning your B2B concierge digital strategy",
-    followUpBody: "Hi [Name],\n\nJust returning to this. Elevating the visual authority of your digital presence will drastically lower the friction when closing top-tier executives.\n\nOpen to a brief, 5-minute chat on how we execute this quickly?"
+    followUpBody: "Hi Ten Group Communications,\n\nJust returning to this. Elevating the visual authority of your digital presence will drastically lower the friction when closing top-tier executives.\n\nOpen to a brief, 5-minute chat on how we execute this quickly?"
   },
   {
     company: "Dr. Barbara Sturm",
@@ -70,10 +70,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "غياب الهيكل التحويلي القوي للإعلانات. يعتمدون على قوة الاسم بدلاً من ماكينة استهداف ذكية.",
     emailSubject: "Injecting conversion assets into your luxury skincare brand",
-    emailBody: "Hi [Name],\n\nYour skincare lines are revered globally, but taking a close look at your social ecosystem reveals that your paid advertising lacks the structured persuasion necessary to aggressively scale online sales to broader high-end markets.\n\nOPTILINE acts as your tactical design and ad team for rapid growth—with zero monthly retainers. We deliver a complete handover: unifying your digital brand, producing a powerful suite of direct-response content, and building an ad launchpad designed purely for elite e-commerce.\n\nCan we have a quick chat this week to discuss a strategic upgrade?",
+    emailBody: "Hi Dr. Sturm PR Team,\n\nYour skincare lines are revered globally, but taking a close look at your social ecosystem reveals that your paid advertising lacks the structured persuasion necessary to aggressively scale online sales to broader high-end markets.\n\nOPTILINE acts as your tactical design and ad team for rapid growth—with zero monthly retainers. We deliver a complete handover: unifying your digital brand, producing a powerful suite of direct-response content, and building an ad launchpad designed purely for elite e-commerce.\n\nCan we have a quick chat this week to discuss a strategic upgrade?",
     arabicNote: "تزويدهم بماكينة التسويق الذكية بدل الاعتماد الأعمى على شهرة الطبيبة فقط.",
     followUpSubject: "Re: Injecting conversion assets into your luxury skincare brand",
-    followUpBody: "Hi [Name],\n\nFollowing up to see if you have considered upgrading the conversion framing on your social channels. The right ad-launch framework will massively scale your digital revenue without agency retainers.\n\nDo you have time for a quick call?"
+    followUpBody: "Hi Dr. Sturm PR Team,\n\nFollowing up to see if you have considered upgrading the conversion framing on your social channels. The right ad-launch framework will massively scale your digital revenue without agency retainers.\n\nDo you have time for a quick call?"
   },
   {
     company: "Victor Jets",
@@ -85,10 +85,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "إعلاناتهم شبه مختفية وتحتاج إلى Launchpad كامل لزيادة تحميلات تطبيقهم للحجوزات.",
     emailSubject: "Unlocking on-demand jet charters through targeted ads",
-    emailBody: "Hi [Name],\n\nVictor has built a phenomenal aviation platform, yet your digital acquisition engine seems virtually silent on social fronts. You are relying on organic discovery instead of deploying aggressive, visually commanding ad funnels to acquire executives directly.\n\nOPTILINE fixes this instantly on a strict fixed-scope handover. We equip your marketing team with striking visual brand guidelines, high-converting video content packs, and a dedicated dual-campaign ad system designed purely for wealthy audiences.\n\nAre you open to a brief meeting this week to see how we can increase your charter bookings?",
+    emailBody: "Hi Victor Jets Marketing,\n\nVictor has built a phenomenal aviation platform, yet your digital acquisition engine seems virtually silent on social fronts. You are relying on organic discovery instead of deploying aggressive, visually commanding ad funnels to acquire executives directly.\n\nOPTILINE fixes this instantly on a strict fixed-scope handover. We equip your marketing team with striking visual brand guidelines, high-converting video content packs, and a dedicated dual-campaign ad system designed purely for wealthy audiences.\n\nAre you open to a brief meeting this week to see how we can increase your charter bookings?",
     arabicNote: "التطبيق مذهل ولكن لا أحد يروج له بشكل ابتكاري وممول للمستهدفين بدقة.",
     followUpSubject: "Re: Unlocking on-demand jet charters through targeted ads",
-    followUpBody: "Hi [Name],\n\nI know things move fast over there, but Victor Jets is leaving significant charter volume on the table by not having an aggressive social ad funnel for ultra-high net worth flyers.\n\nCan we schedule a 5-minute chat to review the solution?"
+    followUpBody: "Hi Victor Jets Marketing,\n\nI know things move fast over there, but Victor Jets is leaving significant charter volume on the table by not having an aggressive social ad funnel for ultra-high net worth flyers.\n\nCan we schedule a 5-minute chat to review the solution?"
   },
   {
     company: "Cadogan Clinic",
@@ -100,10 +100,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "حسابهم يشبه مستشفى عام، وليس وجهة نخبوية للجراحات التجميلية لمن يعشق أسلوب الحياة الراقي.",
     emailSubject: "Upgrading the patient acquisition framework for your clinic",
-    emailBody: "Hi [Name],\n\nThe clinical standard at Cadogan Clinic is unmatched, but your visual brand identity across social platforms currently feels uninspired. Treating high-net-worth patients demands an aesthetic that projects true luxury, not just standard clinical care.\n\nOPTILINE delivers an absolute transformation on a fixed-scope basis. We completely ignore ongoing fees. We rebuild your visual brand guidelines, supply comprehensive content packs designed for premium conversions, and set up the ad framework necessary to secure exclusive consultations.\n\nAre you open to a brief chat this week to effectively secure your luxury positioning?",
+    emailBody: "To the Cadogan Clinic Team,\n\nThe clinical standard at Cadogan Clinic is unmatched, but your visual brand identity across social platforms currently feels uninspired. Treating high-net-worth patients demands an aesthetic that projects true luxury, not just standard clinical care.\n\nOPTILINE delivers an absolute transformation on a fixed-scope basis. We completely ignore ongoing fees. We rebuild your visual brand guidelines, supply comprehensive content packs designed for premium conversions, and set up the ad framework necessary to secure exclusive consultations.\n\nAre you open to a brief chat this week to effectively secure your luxury positioning?",
     arabicNote: "الجمهور الثري يحتاج أن يرى الفخامة حتى في الأمور الطبية، هذا دورنا.",
     followUpSubject: "Re: Upgrading the patient acquisition framework for your clinic",
-    followUpBody: "Hi [Name],\n\nBumping this up. Transforming your clinical feed into an elite lifestyle and aesthetic powerhouse is exactly what drives high-ticket consultations today.\n\nAre you open to a short conversation this week?"
+    followUpBody: "To the Cadogan Clinic Team,\n\nBumping this up. Transforming your clinical feed into an elite lifestyle and aesthetic powerhouse is exactly what drives high-ticket consultations today.\n\nAre you open to a short conversation this week?"
   },
   {
     company: "Rosewood London",
@@ -115,10 +115,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "الاعتماد على الصور الميتة (Static) مع غياب تام لسرد الفيديو الجذاب لجلب الفعاليات الضخمة.",
     emailSubject: "Enhancing digital bookings through premium storytelling assets",
-    emailBody: "Hi [Name],\n\nRosewood London stands as a masterpiece of hospitality, but your current digital presence relies too heavily on static, dry imagery. You are missing the dynamic, persuasive content packages required to aggressively dominate executive bookings and high-tier events.\n\nOPTILINE provides surgical digital enhancement. We bypass endless retainers to deliver a direct asset handover. We create a hyper-premium content pack featuring engaging narrative formats, unify your visual guidelines, and establish a sharp ad framework specifically aimed at the global affluent market.\n\nCan we schedule a brief talk this week to explore this integration?",
+    emailBody: "Hi Rosewood London Communications,\n\nRosewood London stands as a masterpiece of hospitality, but your current digital presence relies too heavily on static, dry imagery. You are missing the dynamic, persuasive content packages required to aggressively dominate executive bookings and high-tier events.\n\nOPTILINE provides surgical digital enhancement. We bypass endless retainers to deliver a direct asset handover. We create a hyper-premium content pack featuring engaging narrative formats, unify your visual guidelines, and establish a sharp ad framework specifically aimed at the global affluent market.\n\nCan we schedule a brief talk this week to explore this integration?",
     arabicNote: "الفيديو هو الملك، والفنادق الراقية متأخرة دوماً في تبنيه بطريقة تحويلية.",
     followUpSubject: "Re: Enhancing digital bookings through premium storytelling assets",
-    followUpBody: "Hi [Name],\n\nJust returning to my previous note. Integrating premium, narrative-driven video assets will immediately differentiate Rosewood London from standard static competitor feeds.\n\nDo you have a few minutes to chat this week?"
+    followUpBody: "Hi Rosewood London Communications,\n\nJust returning to my previous note. Integrating premium, narrative-driven video assets will immediately differentiate Rosewood London from standard static competitor feeds.\n\nDo you have a few minutes to chat this week?"
   },
   {
     company: "Cliveden House",
@@ -130,10 +130,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "إعلانات الدفع سيئة وضعيفة مقابل التاريخ الملكي المدهش للمكان.",
     emailSubject: "Translating historical luxury into high-converting ad assets",
-    emailBody: "Hi [Name],\n\nCliveden House has a breathtaking legacy, but while auditing your paid media fronts, there is a distinct lack of execution. Your digital strategy is currently failing to use highly refined content assets to capture international elite travelers in real-time.\n\nAt OPTILINE, we provide high-speed asset intervention. No retainers. We step in purely to deliver excellence: crafting a unified brand and storytelling kit, massive amounts of conversion-focused content, and a comprehensive advertising structure to dominate luxury hospitality bookings.\n\nDo you have a few minutes for a brief chat this week to see our proposed frameworks?",
+    emailBody: "Hi Cliveden House Marketing,\n\nCliveden House has a breathtaking legacy, but while auditing your paid media fronts, there is a distinct lack of execution. Your digital strategy is currently failing to use highly refined content assets to capture international elite travelers in real-time.\n\nAt OPTILINE, we provide high-speed asset intervention. No retainers. We step in purely to deliver excellence: crafting a unified brand and storytelling kit, massive amounts of conversion-focused content, and a comprehensive advertising structure to dominate luxury hospitality bookings.\n\nDo you have a few minutes for a brief chat this week to see our proposed frameworks?",
     arabicNote: "التاريخ لن يبيع غرفه أوتوماتيكياً في عصر التشتت، يحتاجون لاستعراض تسويقي حاد.",
     followUpSubject: "Re: Translating historical luxury into high-converting ad assets",
-    followUpBody: "Hi [Name],\n\nBumping this up to make sure it wasn't missed. The gap between your actual in-person luxury and current digital ad execution is costing high-tier bookings.\n\nLet’s jump on a quick 5-minute call to discuss closing that gap."
+    followUpBody: "Hi Cliveden House Marketing,\n\nBumping this up to make sure it wasn't missed. The gap between your actual in-person luxury and current digital ad execution is costing high-tier bookings.\n\nLet’s jump on a quick 5-minute call to discuss closing that gap."
   },
   {
     company: "Cheval Collection",
@@ -145,10 +145,10 @@ const dailyTargets = [
     sendTimeLocal: "11:00 AM",
     entryAngle: "هوية ناشفة ورسمية وتخسر الزبون المهتم بالجانب الراقي والمترف، تبدو كشقق للطلاب المبتعثين.",
     emailSubject: "Fixing the brand perception of your luxury residences",
-    emailBody: "Hi [Name],\n\nThe Cheval Collection offers absolutely pristine long-stay accommodations for diplomats and executives, but your digital visual identity feels rigid on your platforms. You are lacking the lifestyle brand kits needed to capture high-value clients before they look elsewhere.\n\nOPTILINE exists solely to deploy these exact assets with no monthly retainers attached. We provide a single fixed-scope execution: delivering a striking, luxury-focused brand identity, extensive content packs, and the ad setups necessary to actively acquire corporate clients.\n\nWe equip your internal team with world-class assets. Are you open to a quick call this week?",
+    emailBody: "Hi Cheval Collection Marketing,\n\nThe Cheval Collection offers absolutely pristine long-stay accommodations for diplomats and executives, but your digital visual identity feels rigid on your platforms. You are lacking the lifestyle brand kits needed to capture high-value clients before they look elsewhere.\n\nOPTILINE exists solely to deploy these exact assets with no monthly retainers attached. We provide a single fixed-scope execution: delivering a striking, luxury-focused brand identity, extensive content packs, and the ad setups necessary to actively acquire corporate clients.\n\nWe equip your internal team with world-class assets. Are you open to a quick call this week?",
     arabicNote: "الهدف هو انتزاعهم من قوقعة 'العقارات الجامدة' وإدخالهم عالم 'اللايف ستايل الفاخر'.",
     followUpSubject: "Re: Fixing the brand perception of your luxury residences",
-    followUpBody: "Hi [Name],\n\nJust following up on my previous email. Shifting the Cheval visual identity from 'corporate' to an elite lifestyle brand will instantly attract a higher tier of diplomat and executive stays.\n\nAre you open to a brief chat?"
+    followUpBody: "Hi Cheval Collection Marketing,\n\nJust following up on my previous email. Shifting the Cheval visual identity from 'corporate' to an elite lifestyle brand will instantly attract a higher tier of diplomat and executive stays.\n\nAre you open to a brief chat?"
   },
   // --- 4:00 PM ---
   {
@@ -161,10 +161,10 @@ const dailyTargets = [
     sendTimeLocal: "4:00 PM",
     entryAngle: "التصوير والمحتوى عشوائية تماماً وتشبه الهواة، مما يقلل من الفخامة المفترضة لأسطول سياراتهم.",
     emailSubject: "Structuring visual authority for exotic car rentals",
-    emailBody: "Hi [Name],\n\nYou possess the greatest luxury fleet in Miami, but right now, mph club operates with a fragmented visual style on social media. The content feels unstructured, heavily diluting the extreme premium value of your vehicles.\n\nOPTILINE solves this immediately with zero monthly retainers. We step in, build a visually commanding brand framework, execute a massive batch of persuasive content assets, and set up your advertising to target high-level tourists precisely.\n\nWe provide the complete engine for your team to use. Are you available for a brief conversation this week?",
+    emailBody: "Hi mph club Media Team,\n\nYou possess the greatest luxury fleet in Miami, but right now, mph club operates with a fragmented visual style on social media. The content feels unstructured, heavily diluting the extreme premium value of your vehicles.\n\nOPTILINE solves this immediately with zero monthly retainers. We step in, build a visually commanding brand framework, execute a massive batch of persuasive content assets, and set up your advertising to target high-level tourists precisely.\n\nWe provide the complete engine for your team to use. Are you available for a brief conversation this week?",
     arabicNote: "المحتوى العشوائي يقتل العلامات الفاخرة، وهذا الإيميل يضرب على هذا الوتر.",
     followUpSubject: "Re: Structuring visual authority for exotic car rentals",
-    followUpBody: "Hi [Name],\n\nFloating this to the top. To command premium prices consistently, mph club needs a highly cohesive, polished digital brand identity—not just random car shots.\n\nCan we set up a quick 5-minute call this week?"
+    followUpBody: "Hi mph club Media Team,\n\nFloating this to the top. To command premium prices consistently, mph club needs a highly cohesive, polished digital brand identity—not just random car shots.\n\nCan we set up a quick 5-minute call this week?"
   },
   {
     company: "Corcoran Sunshine",
@@ -176,10 +176,10 @@ const dailyTargets = [
     sendTimeLocal: "4:00 PM",
     entryAngle: "الهوية الرقمية للوكالة الأم تبدو باهتة وقديمة بالمقارنة مع قيمة الأبراج المذهلة التي يبيعونها.",
     emailSubject: "Modernizing the visual authority of luxury developments",
-    emailBody: "Hi [Name],\n\nYour team markets the absolute pinnacle of luxury real estate in NY, but your corporate digital presence currently feels left behind compared to the billion-dollar developments you represent. This visual mismatch makes closing modern investors harder.\n\nOPTILINE steps in with total precision and no long-term contracts. We offer a singular intervention: overhauling your visual brand kit, delivering hyper-premium content assets, and laying down a flawless ad architecture to put your developments directly in front of global wealth.\n\nDo you have five minutes for a chat this week to review our approach?",
+    emailBody: "To the Corcoran Sunshine Team,\n\nYour team markets the absolute pinnacle of luxury real estate in NY, but your corporate digital presence currently feels left behind compared to the billion-dollar developments you represent. This visual mismatch makes closing modern investors harder.\n\nOPTILINE steps in with total precision and no long-term contracts. We offer a singular intervention: overhauling your visual brand kit, delivering hyper-premium content assets, and laying down a flawless ad architecture to put your developments directly in front of global wealth.\n\nDo you have five minutes for a chat this week to review our approach?",
     arabicNote: "لا يصح أن يبدو مطور بالمليارات وكأنه وكالة من العقد الماضي.",
     followUpSubject: "Re: Modernizing the visual authority of luxury developments",
-    followUpBody: "Hi [Name],\n\nJust bumping this up. Corcoran Sunshine deals in billion-dollar assets, and your digital footprint must reflect that immense scale flawlessly to modern investors.\n\nAre you open to a brief conversation?"
+    followUpBody: "To the Corcoran Sunshine Team,\n\nJust bumping this up. Corcoran Sunshine deals in billion-dollar assets, and your digital footprint must reflect that immense scale flawlessly to modern investors.\n\nAre you open to a brief conversation?"
   },
   {
     company: "Ritz-Carlton Yacht Collection",
@@ -191,10 +191,10 @@ const dailyTargets = [
     sendTimeLocal: "4:00 PM",
     entryAngle: "الإعلانات باهتة ومكررة ولا تلتقط جوهر وملمس 'التجربة البحرية الفائقة'.",
     emailSubject: "Refining the digital acquisition for luxury voyages",
-    emailBody: "Hi [Name],\n\nThe Ritz-Carlton Yacht Collection is pioneering luxury at sea, but your targeted social advertising features repetitive content that fails to invoke the intense exclusivity required to close high-end travelers online.\n\nAt OPTILINE, we specialize in immediate course correction—no monthly agency retainers. We architect a pristine brand asset package, deliver stunning conversion-optimized content, and build a surgically precise targeting setup to put your voyages right on the screens of the global elite.\n\nYour onboard experience is flawless; let us engineer the digital assets to match. Open to a chat?",
+    emailBody: "Hi Ritz-Carlton Yacht PR Team,\n\nThe Ritz-Carlton Yacht Collection is pioneering luxury at sea, but your targeted social advertising features repetitive content that fails to invoke the intense exclusivity required to close high-end travelers online.\n\nAt OPTILINE, we specialize in immediate course correction—no monthly agency retainers. We architect a pristine brand asset package, deliver stunning conversion-optimized content, and build a surgically precise targeting setup to put your voyages right on the screens of the global elite.\n\nYour onboard experience is flawless; let us engineer the digital assets to match. Open to a chat?",
     arabicNote: "تحويل المبيعات من خلال إظهار 'أسلوب الحياة' الصافي بدلاً من مجرد صور السفينة.",
     followUpSubject: "Re: Refining the digital acquisition for luxury voyages",
-    followUpBody: "Hi [Name],\n\nChecking back in on this. By restructuring your ad creatives to sell the undeniable prestige rather than just the voyage, we can significantly scale high-end bookings.\n\nDo you have 5 minutes for a quick chat?"
+    followUpBody: "Hi Ritz-Carlton Yacht PR Team,\n\nChecking back in on this. By restructuring your ad creatives to sell the undeniable prestige rather than just the voyage, we can significantly scale high-end bookings.\n\nDo you have 5 minutes for a quick chat?"
   },
   {
     company: "Sentient Jet",
@@ -206,10 +206,10 @@ const dailyTargets = [
     sendTimeLocal: "4:00 PM",
     entryAngle: "إعلاناتهم متناثرة وتجعل الخدمة تبدو أقل حصرية مما هي عليه حقيقةً، كأنها بطاقة بنكية عادية.",
     emailSubject: "Reclaiming exclusivity in your jet card advertising",
-    emailBody: "Hi [Name],\n\nSentient Jet offers a brilliant aviation program, but your current advertising setup inadvertently makes the service look too accessible on social media. To close elite clients efficiently, your digital messaging must project severe exclusivity and scarcity.\n\nOPTILINE executes rapid brand recalibration. We completely reject long-term retainers in favor of a fixed-scope handover. We architect powerful visual branding, supply highly persuasive premium content, and engineer precise advertising funnels to filter out unqualified leads instantly.\n\nAre you open to a brief chat to discuss aligning your external assets with your elite card value?",
+    emailBody: "Hi Sentient Jet Press Team,\n\nSentient Jet offers a brilliant aviation program, but your current advertising setup inadvertently makes the service look too accessible on social media. To close elite clients efficiently, your digital messaging must project severe exclusivity and scarcity.\n\nOPTILINE executes rapid brand recalibration. We completely reject long-term retainers in favor of a fixed-scope handover. We architect powerful visual branding, supply highly persuasive premium content, and engineer precise advertising funnels to filter out unqualified leads instantly.\n\nAre you open to a brief chat to discuss aligning your external assets with your elite card value?",
     arabicNote: "تصميمهم يقتل مبدأ الندرة والحصرية، ونحن سنعيده لهم.",
     followUpSubject: "Re: Reclaiming exclusivity in your jet card advertising",
-    followUpBody: "Hi [Name],\n\nFollowing up on my previous note. We specialize in visually communicating absolute exclusivity via targeted ads without locking you into monthly retainers.\n\nAre you available for a brief call?"
+    followUpBody: "Hi Sentient Jet Press Team,\n\nFollowing up on my previous note. We specialize in visually communicating absolute exclusivity via targeted ads without locking you into monthly retainers.\n\nAre you available for a brief call?"
   },
   // --- 6:00 PM ---
   {
@@ -222,10 +222,10 @@ const dailyTargets = [
     sendTimeLocal: "6:00 PM",
     entryAngle: "السرد البصري ضعيف ولا يخلق حالة من الحصرية (FOMO) المطلوبة لنادي أعضاء مغلق.",
     emailSubject: "Capturing exclusive members through elite visual assets",
-    emailBody: "Hi [Name],\n\nExclusive Resorts offers a brilliant private club experience, but your current digital visual storytelling is actively underselling the exclusivity you actually provide. To capture affluent families, your social assets must instantly project undeniable prestige.\n\nOPTILINE executes without the friction of endless agency retainers. We step in to completely overhaul your foundational brand elements, write and design powerful content assets, and set up a precise ad architecture meant to close high-tier memberships.\n\nAre you available for a quick chat to discuss upgrading your acquisition assets?",
+    emailBody: "Hi Exclusive Resorts Press Team,\n\nExclusive Resorts offers a brilliant private club experience, but your current digital visual storytelling is actively underselling the exclusivity you actually provide. To capture affluent families, your social assets must instantly project undeniable prestige.\n\nOPTILINE executes without the friction of endless agency retainers. We step in to completely overhaul your foundational brand elements, write and design powerful content assets, and set up a precise ad architecture meant to close high-tier memberships.\n\nAre you available for a quick chat to discuss upgrading your acquisition assets?",
     arabicNote: "نادي فاخر يحتاج للتخلص من 'الظهور العادي' للفت انتباه الأثرياء.",
     followUpSubject: "Re: Capturing exclusive members through elite visual assets",
-    followUpBody: "Hi [Name],\n\nJust bumping this up. Building assets that genuinely trigger exclusivity and FOMO is the fastest way to accelerate membership acquisition.\n\nDo you have 5 minutes for a quick chat?"
+    followUpBody: "Hi Exclusive Resorts Press Team,\n\nJust bumping this up. Building assets that genuinely trigger exclusivity and FOMO is the fastest way to accelerate membership acquisition.\n\nDo you have 5 minutes for a quick chat?"
   },
   // --- 7:00 PM ---
   {
@@ -238,10 +238,10 @@ const dailyTargets = [
     sendTimeLocal: "7:00 PM",
     entryAngle: "عقاراتهم مذهلة ولكن لا توجد هوية بصرية توحد محتواهم على الشبكات الاجتماعية. تفتقر الإعلانات والمحتوى لحس 'النخبوية الحقيقية'.",
     emailSubject: "The visual disconnect in your luxury listings",
-    emailBody: "Hi [Name],\n\nWhile your luxury portfolio at The Agency is unmatched, there is a clear visual disconnect. Your properties are worth millions, yet your Instagram aesthetic and targeted ads don't currently reflect that true elite tier.\n\nAt OPTILINE, we fix this rapidly with zero monthly retainers. We execute a fixed-scope intervention: we build a flawless visual brand kit, high-converting social content, and an exact ad framework designed to capture UHNW buyers, then hand it all over to your team.\n\nAre you open to a quick chat this week to see how we upgrade your digital showroom?",
+    emailBody: "Hi The Agency PR Team,\n\nWhile your luxury portfolio at The Agency is unmatched, there is a clear visual disconnect. Your properties are worth millions, yet your Instagram aesthetic and targeted ads don't currently reflect that true elite tier.\n\nAt OPTILINE, we fix this rapidly with zero monthly retainers. We execute a fixed-scope intervention: we build a flawless visual brand kit, high-converting social content, and an exact ad framework designed to capture UHNW buyers, then hand it all over to your team.\n\nAre you open to a quick chat this week to see how we upgrade your digital showroom?",
     arabicNote: "هذا الإيميل مركز جداً على 'الفجوة البصرية' في الانستغرام مقارنة بسعر العقار.",
     followUpSubject: "Re: The visual disconnect in your luxury listings",
-    followUpBody: "Hi [Name],\n\nFloating this to the top. To consistently attract buyers demanding perfection, your digital visual presence must match the exact standard of your multi-million dollar listings.\n\nAre you free for a quick 5-min call this week?"
+    followUpBody: "Hi The Agency PR Team,\n\nFloating this to the top. To consistently attract buyers demanding perfection, your digital visual presence must match the exact standard of your multi-million dollar listings.\n\nAre you free for a quick 5-min call this week?"
   },
   {
     company: "Beverly Hills MD",
@@ -253,10 +253,10 @@ const dailyTargets = [
     sendTimeLocal: "7:00 PM",
     entryAngle: "التسويق فيه زحمة نصوص ويفتقد للجمالية والبساطة (Minimalism) التي تميز الماركات الطبية الفاخرة اليوم.",
     emailSubject: "Upgrading your aesthetics marketing framework",
-    emailBody: "Hi [Name],\n\nThe clinical excellence at Beverly Hills MD is widely known, but a quick audit of your social channels shows a strategy that feels too cluttered. It lacks the premium minimalism that today's high-end patient expects.\n\nAt OPTILINE, we act as a rapid intervention team. We entirely bypass long-term retainers to deliver a fixed suite of elite assets: from a stunning visual brand architecture to high-converting content and surgical ad campaigns ready to deploy.\n\nYour clinical standard is elite—your digital presence must echo that perfectly. Do you have time for a brief chat this week?",
+    emailBody: "To the Beverly Hills MD Team,\n\nThe clinical excellence at Beverly Hills MD is widely known, but a quick audit of your social channels shows a strategy that feels too cluttered. It lacks the premium minimalism that today's high-end patient expects.\n\nAt OPTILINE, we act as a rapid intervention team. We entirely bypass long-term retainers to deliver a fixed suite of elite assets: from a stunning visual brand architecture to high-converting content and surgical ad campaigns ready to deploy.\n\nYour clinical standard is elite—your digital presence must echo that perfectly. Do you have time for a brief chat this week?",
     arabicNote: "استخدمنا مصطلح 'premium minimalism' لان العيادات الفاخرة تعشق هذا التوجه.",
     followUpSubject: "Re: Upgrading your aesthetics marketing framework",
-    followUpBody: "Hi [Name],\n\nFollowing up on my note. Transitioning your brand to a state of absolute premium minimalism will seriously improve your conversion rates for high-ticket clients.\n\nOpen to a brief conversation this week?"
+    followUpBody: "To the Beverly Hills MD Team,\n\nFollowing up on my note. Transitioning your brand to a state of absolute premium minimalism will seriously improve your conversion rates for high-ticket clients.\n\nOpen to a brief conversation this week?"
   },
   {
     company: "Silver Air Private Jets",
@@ -268,10 +268,10 @@ const dailyTargets = [
     sendTimeLocal: "7:00 PM",
     entryAngle: "لا يوجد سكريبتات إقناع أو إعلانات مصممة بذكاء لاستهداف قادة الأعمال مباشرة.",
     emailSubject: "Closing the gap in your private aviation marketing",
-    emailBody: "Hi [Name],\n\nYour charter services at Silver Air are top-tier, but displaying jets on Instagram is no longer enough. You are missing the persuasive video scripts and tightly controlled ad targeting necessary to win over high-level executives.\n\nOPTILINE specializes in filling this exact void with zero monthly management fees. We provide targeted execution: delivering a fully crafted brand kit, premium content ready to post, and an exact ad setup to effectively acquire elite flyers.\n\nLet us make your digital presence as sharp as your operations. Are you open to a brief meeting this week?",
+    emailBody: "To the Silver Air Team,\n\nYour charter services at Silver Air are top-tier, but displaying jets on Instagram is no longer enough. You are missing the persuasive video scripts and tightly controlled ad targeting necessary to win over high-level executives.\n\nOPTILINE specializes in filling this exact void with zero monthly management fees. We provide targeted execution: delivering a fully crafted brand kit, premium content ready to post, and an exact ad setup to effectively acquire elite flyers.\n\nLet us make your digital presence as sharp as your operations. Are you open to a brief meeting this week?",
     arabicNote: "ضربة قوية لواقع أن مجرد 'عرض الطائرات' لم يعد يكفي لبيع الرحلات.",
     followUpSubject: "Re: Closing the gap in your private aviation marketing",
-    followUpBody: "Hi [Name],\n\nJust returning to this. Moving beyond standard jet photos and implementing aggressive, script-driven conversion ads is the key to scaling your charter pipeline.\n\nDo you have a few minutes to chat this week?"
+    followUpBody: "To the Silver Air Team,\n\nJust returning to this. Moving beyond standard jet photos and implementing aggressive, script-driven conversion ads is the key to scaling your charter pipeline.\n\nDo you have a few minutes to chat this week?"
   },
   {
     company: "The Private Suite (PS)",
@@ -283,10 +283,10 @@ const dailyTargets = [
     sendTimeLocal: "7:00 PM",
     entryAngle: "ضعف في السرد المرئي؛ يعرضون الخدمة ببرود بدلاً من استخدام إعلانات تهاجم تعب السفر وتبيع 'الراحة المطلقة'.",
     emailSubject: "Optimizing the digital narrative for luxury transit",
-    emailBody: "Hi [Name],\n\nPS offers an unparalleled travel experience, but your digital storytelling fails to effectively translate that profound luxury into high-converting ad campaigns. Without aggressive, hyper-targeted visual assets, you are leaving executive revenue on the table.\n\nOPTILINE executes completely on a fixed-scope basis—zero retainers. We provide you with a masterclass brand kit, stunning content packs built for the affluent traveler, and an elite ad setup that actively seeks out major executives.\n\nYour service is perfect; let's make your promotional assets match. Open to a quick chat?",
+    emailBody: "Hi PS Press Team,\n\nPS offers an unparalleled travel experience, but your digital storytelling fails to effectively translate that profound luxury into high-converting ad campaigns. Without aggressive, hyper-targeted visual assets, you are leaving executive revenue on the table.\n\nOPTILINE executes completely on a fixed-scope basis—zero retainers. We provide you with a masterclass brand kit, stunning content packs built for the affluent traveler, and an elite ad setup that actively seeks out major executives.\n\nYour service is perfect; let's make your promotional assets match. Open to a quick chat?",
     arabicNote: "بيع 'الشعور بالراحة والحصرية' من خلال المحتوى والحملات.",
     followUpSubject: "Re: Optimizing the digital narrative for luxury transit",
-    followUpBody: "Hi [Name],\n\nBumping this up. The service PS provides is phenomenal, but bridging that digital visual gap is necessary to maximize executive bookings via social channels.\n\nCan we set up a quick 5-min call to discuss?"
+    followUpBody: "Hi PS Press Team,\n\nBumping this up. The service PS provides is phenomenal, but bridging that digital visual gap is necessary to maximize executive bookings via social channels.\n\nCan we set up a quick 5-min call to discuss?"
   },
   {
     company: "O'Gara Coach",
@@ -298,10 +298,10 @@ const dailyTargets = [
     sendTimeLocal: "7:00 PM",
     entryAngle: "لا يعكسون قوة وبطش ماكينات بوغاتي، الحساب يفتقر للإطار الصارم الموحد.",
     emailSubject: "Overhauling your digital showroom for UHNW buyers",
-    emailBody: "Hi [Name],\n\nYou sell the most exotic vehicles on the planet at O'Gara Coach, but your digital content lacks a strict, unified visual brand framework. This disjointed social presence actively diminishes the perceived value of the multi-million dollar assets you hold.\n\nAt OPTILINE, we correct this rapidly. We do not do monthly retainers. We create an immaculate brand toolkit, a batch of incredible visual properties, and an advanced ad setup configured exclusively to attract ultra-high-net-worth buyers.\n\nYour physical showroom is stunning; let us refine your digital one instantly. Available for a quick call?",
+    emailBody: "Hi O'Gara Coach Marketing,\n\nYou sell the most exotic vehicles on the planet at O'Gara Coach, but your digital content lacks a strict, unified visual brand framework. This disjointed social presence actively diminishes the perceived value of the multi-million dollar assets you hold.\n\nAt OPTILINE, we correct this rapidly. We do not do monthly retainers. We create an immaculate brand toolkit, a batch of incredible visual properties, and an advanced ad setup configured exclusively to attract ultra-high-net-worth buyers.\n\nYour physical showroom is stunning; let us refine your digital one instantly. Available for a quick call?",
     arabicNote: "الحسابات غير المنظمة تكسر ثقة الزبائن الذين يدفعون ملايين الدولارات في ثانية.",
     followUpSubject: "Re: Overhauling your digital showroom for UHNW buyers",
-    followUpBody: "Hi [Name],\n\nFollowing up on my previous note. O'Gara handles the pinnacle of automotive engineering—your digital visual framework must command the exact same level of authority to convert buyers.\n\nDo you have 5 minutes to chat?"
+    followUpBody: "Hi O'Gara Coach Marketing,\n\nFollowing up on my previous note. O'Gara handles the pinnacle of automotive engineering—your digital visual framework must command the exact same level of authority to convert buyers.\n\nDo you have 5 minutes to chat?"
   }
 ];
 
